@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #f1edea;
+
+}
+
+
+section {
+    width: 95%;
+    margin: auto;
+    height: auto;
+    /* border: 2px solid rgb(214, 93, 22); */
+}
+
+.main-heading p {
+
+    font-weight: 400;
+    width: 40px;
+}
+
+.main-heading h1 {
+    font-size: 2.5rem;
+    margin-top: -10px;
+    width: 40%;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 20px;
+}
+.cards{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    
+   background-color: #ffffff;
+    height: 600px;
+    width: 23%;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(173, 166, 166) ;
+}
+.card1-p{
+    background-color: rgb(255, 129, 83);
+    color:whitesmoke;
+   
+    
+}
+.card p span{
+    margin-left:10px ;
+}
+.ftr{
+    margin-top: 220px;
+}
+.ftr p{
+  font-size: 14px;
+  text-align: center;
+}
+hr{
+    height: 1px;
+    background-color: #201b1b;
+}
+.explore{
+    width: 100%;
+    text-align: center;
+}
+.scroling{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 80px;
+}
+
+
+/* Logo scroling section  */
+.scroll-box {
+    position: sticky;
+    padding: 4%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.marquee-text-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 150s linear infinite;
+}
+
+.marquee-text-text {
+    display: inline-block;
+}
+
+.p-logo {
+    margin: 0 16px;
+    vertical-align: middle;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* ::::::::::GRID::::::::: */
+.grid-container {
+  
+    width: 76%;
+    margin-left: 19%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    padding: 20px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #000; /* Border around each box */
+    background-color: #f0f0f0; /* Background color of the boxes */
+    font-size: 1.5em;
+}
+.grid-container-2{
+    display: grid;
+    width: 95%;
+ 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Four columns */
+    padding: 20px;
+}
+
+.EF{
+ font-family: sans-serif;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ padding-left: 80px;
+}
+
+.Security-features{
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 80px;
+
+}
