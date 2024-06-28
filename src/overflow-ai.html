@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../header-footer-media.css">
+    <link rel="stylesheet" href="header-footer-media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/style/overflow-ai.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&amp;family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navLeft">
+                <ul>
+                    <li>
+                        <span class="material-icons menu">menu</span>
+                    </li>
+                    <li>
+                        <img src="https://cdn.cookielaw.org/logos/481fe84d-93cd-45d7-9ee5-d340809f8e77/8f3efd92-e54f-4c99-a125-ae0c75e79ddd/5f962ad8-0e6b-448b-a8fc-773412c206d3/so-logo.png"
+                            alt="" id="image">
+                    </li>
+                    <li class="list">Why Teams? <span class="material-icons">expand_more</span></li>
+                    <li class="list">Use cases <span class="material-icons">expand_more</span></li>
+                    <li class="list">Customers</li>
+                    <li class="list">Resources<span class="material-icons">expand_more</span></li>
+                    <li class="list">OverflowAI</li>
+                    <li class="list">Pricing</li>
+                </ul>
+            </div>
+            <div class="navRight">
+                <ul>
+                    <li class="list"><span class="material-icons">person</span>Log in</li>
+                    <li class="list">Try Free</li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="overflow-header">
+        <div class="main">
+            <div class="p-bg-pattern-dot--light" ></div>
+
+            <svg data-v-0f3dd90b="" aria-hidden="true" class="svg-icon iconMarketingOverflowai native ps-relative z-active" width="306" height="64" viewBox="0 0 345 72"><path fill="currentColor" d="M84.22 32.4c-3.97 0-6.65 1.53-8.32 3.29-2.43 2.5-3.06 5.54-3.06 10.37 0 4.88.63 7.92 3.06 10.43 1.63 1.75 4.35 3.29 8.32 3.29s6.7-1.54 8.38-3.3c2.42-2.5 3.05-5.54 3.05-10.42 0-4.83-.63-7.87-3.05-10.37-1.68-1.76-4.4-3.3-8.38-3.3m3.14 20.17c-.8.79-1.8 1.16-3.14 1.16a4.2 4.2 0 0 1-3.1-1.16c-1.37-1.38-1.54-3.75-1.54-6.55s.17-5.08 1.55-6.46a4 4 0 0 1 3.1-1.17c1.33 0 2.38.42 3.13 1.17 1.39 1.38 1.55 3.71 1.55 6.46 0 2.8-.16 5.17-1.55 6.55m26.12-19.89-5.44 16.55-5.48-16.55h-7.03l9.92 26.8h5.27l9.88-26.8zm18.5-.29c-6.99 0-11.72 4.92-11.72 13.67 0 10.84 6.12 13.72 12.44 13.72 4.85 0 7.49-1.5 10.2-4.21l-4.05-3.96c-1.72 1.7-3.14 2.5-6.11 2.5-3.77 0-5.9-2.5-5.9-5.96h16.82v-3c.05-7.34-4.18-12.76-11.67-12.76m-5.1 11.17c.04-1.16.2-1.91.63-2.87a4.7 4.7 0 0 1 4.48-2.8 4.6 4.6 0 0 1 4.47 2.8c.42.96.59 1.7.63 2.87zm26.75-8.3v-2.58h-6.58v26.8h6.7v-16.1c0-3.38 2.26-4.92 4.35-4.92 1.64 0 2.52.54 3.56 1.58l5.07-5.09c-1.84-1.83-3.73-2.5-6.37-2.5a9 9 0 0 0-6.74 2.84m15.19-5.37v29.56h6.7V38.3h4.98v-5.08h-4.94V30.3c0-1.54.8-2.42 2.38-2.42h2.6v-5.67h-3.8c-5.53 0-7.92 3.88-7.92 7.67m39.3 2.5c-3.97 0-6.65 1.54-8.33 3.3-2.42 2.5-3.05 5.54-3.05 10.37 0 4.88.63 7.92 3.05 10.43 1.64 1.75 4.36 3.29 8.33 3.29 3.98 0 6.7-1.54 8.38-3.3 2.42-2.5 3.05-5.54 3.05-10.42 0-4.83-.63-7.87-3.06-10.37-1.63-1.76-4.39-3.3-8.37-3.3m3.19 20.18c-.8.79-1.8 1.16-3.14 1.16a4.2 4.2 0 0 1-3.1-1.16c-1.38-1.38-1.55-3.75-1.55-6.55s.17-5.08 1.55-6.46c.8-.79 1.76-1.17 3.1-1.17s2.38.42 3.14 1.17c1.38 1.38 1.54 3.71 1.54 6.46 0 2.8-.16 5.17-1.54 6.55m39.97-19.89-4.35 16.55-5.53-16.55h-4.9l-5.48 16.55-4.35-16.55h-7.12l8.25 26.8h5.52l5.61-16.8 5.61 16.8h5.53l8.28-26.8zM190.42 51.4V22.22h-6.7v29.6c0 3.8 2.34 7.67 7.87 7.67h3.8v-5.67h-2.59c-1.71 0-2.38-.84-2.38-2.42"></path><path fill="#F48024" d="M283.26 12.25a10 10 0 0 0-9.57 7.09l-11.4 37.5a10 10 0 0 0 9.56 12.91h51.3a10 10 0 0 0 9.57-7.09l11.4-37.5a10 10 0 0 0-9.56-12.91zm31.34 41.03V28.72h-4.1v-5.88h15.29v5.88h-4.1v24.56h4.1v5.88H310.5v-5.88zm-30.69-24.51h-2.69v-5.88h12.47l9.5 30.4h3.83v5.87h-13.45v-5.88h2.86l-1.1-4h-11.25l-1.1 4h3.63v5.88h-13.45v-5.88h3.05zm1.8 14.64h8l-4-14.47z"></path><path fill="#BCBBBB" d="M51.56 46.33v18.95H6.75V46.33H0V72h58.3V46.33z"></path><path fill="#F48024" d="M12.92 59.17h32.49v-6.11H12.92zm.65-14.62 31.56 6.6 1.3-6.27-31.56-6.6zm4.16-15.06 29.22 13.58 2.72-5.82-29.22-13.58zm8.11-14.3 24.8 20.57 4.16-4.92-24.87-20.56zM41.82 0l-5.2 3.82 19.22 25.8 5.2-3.82z"></path>
+            </svg>
+
+            <div class="content">
+                <h1>AI features to <span class="text-orange">supercharge</span><br> your workflows.</h1>
+                <button class="btn btn-orange">Talk to an expert</button>
+                <div class="video-player">
+                    <iframe title="Overview video of Stack Overflow for Teams OverflowAI features" class="ps-absolute t0 r0 l0 b0 w100 h100" src="https://fast.wistia.net/embed/iframe/1enza4luor?seo=false&amp;videoFoam=true&amp;doNotTrack=true&amp;seo=false&amp;videoFoam=false&amp;fitStrategy=cover&amp;controlsVisibleOnLoad=false&amp;playbar=true&amp;settingsControl=false&amp;smallPlayButton=true&amp;playerColor=F48024&amp;muted=false" frameborder="0" scrolling="no" allow="autoplay" data-v-0f3dd90b=""></iframe>
+                </div>
+            </div>
+            <div class="cards" data-aos="fade-up">
+                <div class="card">
+                    <svg aria-hidden="true" class="svg-icon iconMarketingEnhancedSearch w48 h48 mb12" width="55" height="55" viewBox="0 0 96 96" data-v-0f3dd90b=""><g><path fill="currentColor" fill-opacity="0.2" d="M81 49.5a40.5 40.5 0 1 1-81 0 40.5 40.5 0 0 1 81 0m-70.25 0a29.75 29.75 0 1 0 59.5 0 29.75 29.75 0 0 0-59.5 0"></path><path fill="currentColor" fill-opacity=".8"  d="M63.13 83.09a40.5 40.5 0 0 0 .05-67.14l-6.02 8.9a29.75 29.75 0 0 1-.03 49.32zM79.02 8.68 76.68 4l-2.35 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L72 8.68l4.68 2.34 4.68-2.34zm9.34 14.34L83.68 16l-2.34 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L79 20.68l4.68 2.34 4.68-2.34zm5.29 62.03L84.3 71l-4.68 9.36h-.01l4.68 9.37zm-4.67-4.69-9.37 4.68 9.36 4.69zm0 9.37 9.37-4.68-9.37-4.68z"></path></g></svg>
+                    <h2>Enhanced Search</h2>
+                    <p>Summarize multiple answers across your knowledge base into new insights.</p>
+                    <span class="arrow-icon-container">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="card">
+                    <svg aria-hidden="true" class="svg-icon iconMarketingVscode w48 h48 mb12" width="55" height="55" viewBox="0 0 112 112" data-v-0f3dd90b=""><path fill="currentColor" d="M100.6 18.1 80.85 8.6a6 6 0 0 0-6.82 1.16l-64.72 59a4 4 0 0 0 0 5.92l5.3 4.8a4 4 0 0 0 5.1.23l77.93-59.12a3.97 3.97 0 0 1 6.37 3.16v-.23a6 6 0 0 0-3.4-5.4"></path><g filter="url(#MarketingVscodea)"><path fill="currentColor" d="m100.6 93.34-19.76 9.52a6 6 0 0 1-6.82-1.16L9.3 42.7a4 4 0 0 1 0-5.92l5.3-4.8a4 4 0 0 1 5.1-.23l77.93 59.12a3.97 3.97 0 0 0 6.37-3.16v.23a6 6 0 0 1-3.4 5.4"></path></g><g filter="url(#MarketingVscodeb)"><path fill="currentColor" d="M80.84 102.86a6 6 0 0 1-6.82-1.16c2.21 2.21 6 .64 6-2.48V12.23c0-3.13-3.79-4.7-6-2.48a6 6 0 0 1 6.82-1.16l19.77 9.5a6 6 0 0 1 3.4 5.4v64.46a6 6 0 0 1-3.4 5.4z"></path></g><path fill="currentColor" d="M76.04 103.04c1.5.6 3.23.55 4.76-.18l19.75-9.5a6 6 0 0 0 3.4-5.41V23.5a6 6 0 0 0-3.4-5.4L80.8 8.58a6 6 0 0 0-6.82 1.16l-37.82 34.5-16.47-12.5a4 4 0 0 0-5.1.22l-5.29 4.8a4 4 0 0 0 0 5.92l14.28 13.03L9.3 68.76a4 4 0 0 0 0 5.9l5.29 4.81a4 4 0 0 0 5.1.23l16.47-12.5 37.82 34.5q.91.9 2.06 1.34m3.93-69.1-28.7 21.78 28.7 21.79z" opacity=".25" style="mix-blend-mode:overlay;"></path><defs><filter id="a" width="112" height="88.51" x="0" y="22.94" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><filter id="b" width="45.98" height="111.45" x="66.02" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><linearGradient id="MarketingVscodec" x1="55.97" x2="55.97" y1="8" y2="103.45" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient></defs></svg>
+                    <h2>Stack Overflow for Visual Studio Code</h2>
+                    <p>The power of Stack Overflow in your coding environment.</p>
+                    <span class="arrow-icon-container">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                </div>
+                <div class="card">
+                    <svg aria-hidden="true" class="svg-icon iconMarketingAutoAnswer w48 h48 mb12" width="55" height="55" viewBox="0 0 96 96" data-v-0f3dd90b=""><path fill="currentcolor" d="M10.62 15.76C7.67 20.5 7.5 26.46 7.5 38.74v49.19a2.07 2.07 0 0 0 3.34 1.63l16.99-13.21c3.88.3 8.72.3 15 .3h10.34c13.7 0 20.55 0 25.57-3.12a21 21 0 0 0 6.64-6.64c3.12-5.01 3.12-11.87 3.12-25.57s0-20.55-3.12-25.56a21 21 0 0 0-6.64-6.64C73.72 6 66.87 6 53.17 6H42.83c-13.7 0-20.55 0-25.57 3.12a21 21 0 0 0-6.64 6.64m50.71 1.3c.18-.41.26-.62.39-.68q.17-.07.33 0c.13.06.21.27.39.68l1.04 2.48c.5 1.2.75 1.79 1.12 2.3q.5.67 1.17 1.16c.5.37 1.1.62 2.3 1.12l2.48 1.05c.4.17.61.26.68.38q.07.16 0 .34c-.07.12-.27.2-.68.38l-2.49 1.05c-1.19.5-1.78.75-2.29 1.12q-.67.5-1.17 1.17c-.37.5-.62 1.1-1.12 2.29l-1.04 2.48c-.18.41-.26.62-.39.68a.4.4 0 0 1-.33 0c-.13-.06-.21-.27-.39-.68L60.3 31.9c-.5-1.2-.76-1.79-1.12-2.3A5 5 0 0 0 58 28.45c-.5-.37-1.1-.62-2.3-1.12l-2.48-1.05c-.41-.17-.62-.26-.68-.38a.4.4 0 0 1 0-.34c.06-.12.27-.2.68-.38l2.48-1.05c1.2-.5 1.8-.75 2.3-1.12q.67-.49 1.17-1.17c.36-.5.62-1.1 1.12-2.29zM40.36 29.14c.34-.8.51-1.2.75-1.33.2-.1.46-.1.66 0 .24.12.42.53.76 1.33l2.05 4.88c.98 2.34 1.48 3.51 2.2 4.5q.97 1.33 2.3 2.3c1 .73 2.16 1.22 4.5 2.2l4.88 2.06c.8.34 1.21.5 1.33.75a.7.7 0 0 1 0 .66c-.12.24-.52.41-1.33.75l-4.88 2.06c-2.34.98-3.5 1.47-4.5 2.2q-1.33.96-2.3 2.3c-.72.99-1.22 2.16-2.2 4.5l-2.05 4.87c-.34.81-.52 1.22-.76 1.34-.2.1-.45.1-.66 0-.24-.12-.41-.53-.75-1.34L38.3 58.3c-.98-2.34-1.47-3.51-2.2-4.5a11 11 0 0 0-2.3-2.3c-.99-.73-2.16-1.22-4.5-2.2l-4.87-2.06c-.81-.34-1.22-.5-1.34-.75a.7.7 0 0 1 0-.66c.12-.24.53-.41 1.34-.75l4.87-2.06c2.34-.98 3.51-1.47 4.5-2.2q1.34-.97 2.3-2.3c.73-.99 1.22-2.16 2.2-4.5z"></path></svg>
+                    <h2>Auto-Answer App</h2>
+                    <p>Automate access to essential team knowledge.</p>
+                    <span class="arrow-icon-container">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="enterprises-plan">
+                <a href=""><i class="fa-solid fa-circle-xmark"></i>&nbsp;&nbsp;Free</a>
+                <a href=""><i class="fa-solid fa-circle-xmark"></i>&nbsp;&nbsp;Basic</a>
+                <a href=""><i class="fa-solid fa-circle-xmark"></i>&nbsp;&nbsp;Business</a>
+                <a href="" class="active"><i class="fa-sharp fa-solid fa-circle-check"></i>&nbsp;&nbsp;Enterprise</a>
+            </div>
+            <div class="pricing_plans">
+                <a href="">Learn more about pricing and plans 
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- /* knowledge community section start */ -->
+
+    <section class="knowledge-community">
+        <div class="knowledge-community-head">
+            <svg class="d-block mx-auto mb24" width="128" viewBox="0 0 111 51" data-v-0f3dd90b="" data-v-e33963b1=""><path class="looper" d="M66.6523 6.36679C69.5635 3.686 73.2147 1.89892 77.1539 1.22673C81.0931 0.55455 85.1475 1.02678 88.815 2.58498C92.4826 4.14317 95.6024 6.71891 97.7882 9.99338C99.9741 13.2678 101.13 17.0973 101.113 21.0077C101.096 24.918 99.9066 28.7377 97.6923 31.9938C95.478 35.2499 92.3359 37.7996 88.6549 39.3271C84.9738 40.8547 80.9156 41.2931 76.9823 40.5881C73.0491 39.8831 69.4137 38.0657 66.526 35.3607L35.6356 6.41041C32.7322 3.71443 29.0832 1.91147 25.1413 1.22523C21.1995 0.538995 17.1384 0.999695 13.4619 2.55017C9.78543 4.10064 6.65539 6.67263 4.46017 9.94701C2.26494 13.2214 1.10117 17.054 1.11325 20.9694C1.12533 24.8847 2.31273 28.7104 4.52812 31.9718C6.74351 35.2332 9.88937 37.7866 13.5754 39.3154C17.2614 40.8441 21.3252 41.2808 25.2627 40.5714C29.2003 39.8619 32.8381 38.0374 35.7248 35.3244L66.6523 6.36679Z" fill="none" stroke="#F48024" stroke-width="10" stroke-dasharray="150 305" stroke-dashoffset="180" stroke-linecap="round" data-v-e33963b1=""></path><g class="ai" data-v-e33963b1=""><path fill-rule="evenodd" clip-rule="evenodd" d="M18.6578 0.274109C14.9088 0.274109 11.6007 2.72541 10.5095 6.31198L0.791579 38.2511C-0.873204 43.7226 3.22067 49.2474 8.93985 49.2474H52.6343C56.3832 49.2474 59.6913 46.7961 60.7826 43.2095L70.5005 11.2704C72.1653 5.7989 68.0714 0.274109 62.3522 0.274109H18.6578Z" fill="#F48024" data-v-e33963b1=""></path><path fill-rule="evenodd" clip-rule="evenodd" d="M41.8564 35.2203V40.2241H54.885V35.2203H51.3897V14.3012H54.885V9.29736H41.8564V14.3012H45.352V35.2203H41.8564ZM10.0546 35.2203V40.2241H21.5091V35.2203H18.4162L19.3596 31.8138H28.9375L29.8771 35.2203H27.4384V40.2241H38.8929V35.2203H35.6395L27.5384 9.33681H16.924V14.3406H19.2119L12.6539 35.2203H10.0546ZM27.5567 26.8101H20.7446L24.1574 14.4865L27.5567 26.8101Z" fill="var(--white)" data-v-e33963b1=""></path></g></svg>
+            <h2>We’re bringing AI power to your <br><strong>knowledge community.</strong></h2>
+        </div>
+
+        <div class="knowledge-community-container">
+            <nav class="nav-menu-container">
+                <div class="nav-menu-item active">
+                    <a href="#enhanced_search">
+                        <svg aria-hidden="true" class="svg-icon iconMarketingEnhancedSearch w48 h48 mb12" width="20" height="20" viewBox="0 0 96 96" data-v-0f3dd90b=""><g><path fill="currentColor" fill-opacity="0.2" d="M81 49.5a40.5 40.5 0 1 1-81 0 40.5 40.5 0 0 1 81 0m-70.25 0a29.75 29.75 0 1 0 59.5 0 29.75 29.75 0 0 0-59.5 0"></path><path fill="currentColor" fill-opacity=".8"  d="M63.13 83.09a40.5 40.5 0 0 0 .05-67.14l-6.02 8.9a29.75 29.75 0 0 1-.03 49.32zM79.02 8.68 76.68 4l-2.35 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L72 8.68l4.68 2.34 4.68-2.34zm9.34 14.34L83.68 16l-2.34 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L79 20.68l4.68 2.34 4.68-2.34zm5.29 62.03L84.3 71l-4.68 9.36h-.01l4.68 9.37zm-4.67-4.69-9.37 4.68 9.36 4.69zm0 9.37 9.37-4.68-9.37-4.68z"></path></g></svg>&nbsp;
+                        Enhanced Search
+                    </a>
+                </div>
+                <div class="nav-menu-item">
+                    <a href="#vscode">
+                        <svg aria-hidden="true" class="svg-icon iconMarketingVscode w48 h48 mb12" width="20" height="20" viewBox="0 0 112 112" data-v-0f3dd90b=""><path fill="currentColor" d="M100.6 18.1 80.85 8.6a6 6 0 0 0-6.82 1.16l-64.72 59a4 4 0 0 0 0 5.92l5.3 4.8a4 4 0 0 0 5.1.23l77.93-59.12a3.97 3.97 0 0 1 6.37 3.16v-.23a6 6 0 0 0-3.4-5.4"></path><g filter="url(#MarketingVscodea)"><path fill="currentColor" d="m100.6 93.34-19.76 9.52a6 6 0 0 1-6.82-1.16L9.3 42.7a4 4 0 0 1 0-5.92l5.3-4.8a4 4 0 0 1 5.1-.23l77.93 59.12a3.97 3.97 0 0 0 6.37-3.16v.23a6 6 0 0 1-3.4 5.4"></path></g><g filter="url(#MarketingVscodeb)"><path fill="currentColor" d="M80.84 102.86a6 6 0 0 1-6.82-1.16c2.21 2.21 6 .64 6-2.48V12.23c0-3.13-3.79-4.7-6-2.48a6 6 0 0 1 6.82-1.16l19.77 9.5a6 6 0 0 1 3.4 5.4v64.46a6 6 0 0 1-3.4 5.4z"></path></g><path fill="currentColor" d="M76.04 103.04c1.5.6 3.23.55 4.76-.18l19.75-9.5a6 6 0 0 0 3.4-5.41V23.5a6 6 0 0 0-3.4-5.4L80.8 8.58a6 6 0 0 0-6.82 1.16l-37.82 34.5-16.47-12.5a4 4 0 0 0-5.1.22l-5.29 4.8a4 4 0 0 0 0 5.92l14.28 13.03L9.3 68.76a4 4 0 0 0 0 5.9l5.29 4.81a4 4 0 0 0 5.1.23l16.47-12.5 37.82 34.5q.91.9 2.06 1.34m3.93-69.1-28.7 21.78 28.7 21.79z" opacity=".25" style="mix-blend-mode:overlay;"></path><defs><filter id="a" width="112" height="88.51" x="0" y="22.94" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><filter id="b" width="45.98" height="111.45" x="66.02" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><linearGradient id="MarketingVscodec" x1="55.97" x2="55.97" y1="8" y2="103.45" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient></defs></svg>
+                        &nbsp;
+                        Stack Overflow for Visual Studio Code
+                    </a>
+                </div>
+                <div class="nav-menu-item">
+                    <a href="#auto-answer">
+                        <svg aria-hidden="true" class="svg-icon iconMarketingAutoAnswer w48 h48 mb12" width="20" height="20" viewBox="0 0 96 96" data-v-0f3dd90b=""><path fill="currentcolor" d="M10.62 15.76C7.67 20.5 7.5 26.46 7.5 38.74v49.19a2.07 2.07 0 0 0 3.34 1.63l16.99-13.21c3.88.3 8.72.3 15 .3h10.34c13.7 0 20.55 0 25.57-3.12a21 21 0 0 0 6.64-6.64c3.12-5.01 3.12-11.87 3.12-25.57s0-20.55-3.12-25.56a21 21 0 0 0-6.64-6.64C73.72 6 66.87 6 53.17 6H42.83c-13.7 0-20.55 0-25.57 3.12a21 21 0 0 0-6.64 6.64m50.71 1.3c.18-.41.26-.62.39-.68q.17-.07.33 0c.13.06.21.27.39.68l1.04 2.48c.5 1.2.75 1.79 1.12 2.3q.5.67 1.17 1.16c.5.37 1.1.62 2.3 1.12l2.48 1.05c.4.17.61.26.68.38q.07.16 0 .34c-.07.12-.27.2-.68.38l-2.49 1.05c-1.19.5-1.78.75-2.29 1.12q-.67.5-1.17 1.17c-.37.5-.62 1.1-1.12 2.29l-1.04 2.48c-.18.41-.26.62-.39.68a.4.4 0 0 1-.33 0c-.13-.06-.21-.27-.39-.68L60.3 31.9c-.5-1.2-.76-1.79-1.12-2.3A5 5 0 0 0 58 28.45c-.5-.37-1.1-.62-2.3-1.12l-2.48-1.05c-.41-.17-.62-.26-.68-.38a.4.4 0 0 1 0-.34c.06-.12.27-.2.68-.38l2.48-1.05c1.2-.5 1.8-.75 2.3-1.12q.67-.49 1.17-1.17c.36-.5.62-1.1 1.12-2.29zM40.36 29.14c.34-.8.51-1.2.75-1.33.2-.1.46-.1.66 0 .24.12.42.53.76 1.33l2.05 4.88c.98 2.34 1.48 3.51 2.2 4.5q.97 1.33 2.3 2.3c1 .73 2.16 1.22 4.5 2.2l4.88 2.06c.8.34 1.21.5 1.33.75a.7.7 0 0 1 0 .66c-.12.24-.52.41-1.33.75l-4.88 2.06c-2.34.98-3.5 1.47-4.5 2.2q-1.33.96-2.3 2.3c-.72.99-1.22 2.16-2.2 4.5l-2.05 4.87c-.34.81-.52 1.22-.76 1.34-.2.1-.45.1-.66 0-.24-.12-.41-.53-.75-1.34L38.3 58.3c-.98-2.34-1.47-3.51-2.2-4.5a11 11 0 0 0-2.3-2.3c-.99-.73-2.16-1.22-4.5-2.2l-4.87-2.06c-.81-.34-1.22-.5-1.34-.75a.7.7 0 0 1 0-.66c.12-.24.53-.41 1.34-.75l4.87-2.06c2.34-.98 3.51-1.47 4.5-2.2q1.34-.97 2.3-2.3c.73-.99 1.22-2.16 2.2-4.5z"></path></svg>&nbsp;
+                        Auto-Answer App
+                    </a>
+                </div>
+                <div class="nav-menu-item expert">
+                    <a href="">Talk to an expert</a>
+                </div>
+            </nav>
+            <div class="knowledge-community-content">
+                <div class="enhanced_search" id="enhanced_search">
+                    <p>
+                        <svg aria-hidden="true" class="svg-icon iconMarketingEnhancedSearch w48 h48 mb12" width="20" height="20" viewBox="0 0 96 96" data-v-0f3dd90b=""><g><path fill="currentColor" fill-opacity="0.2" d="M81 49.5a40.5 40.5 0 1 1-81 0 40.5 40.5 0 0 1 81 0m-70.25 0a29.75 29.75 0 1 0 59.5 0 29.75 29.75 0 0 0-59.5 0"></path><path fill="currentColor" fill-opacity=".8"  d="M63.13 83.09a40.5 40.5 0 0 0 .05-67.14l-6.02 8.9a29.75 29.75 0 0 1-.03 49.32zM79.02 8.68 76.68 4l-2.35 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L72 8.68l4.68 2.34 4.68-2.34zm9.34 14.34L83.68 16l-2.34 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L79 20.68l4.68 2.34 4.68-2.34zm5.29 62.03L84.3 71l-4.68 9.36h-.01l4.68 9.37zm-4.67-4.69-9.37 4.68 9.36 4.69zm0 9.37 9.37-4.68-9.37-4.68z"></path></g></svg>&nbsp;
+                        Enhanced Search
+                    </p>
+                    <h2>Upgrade your <strong>search experience.</strong></h2>
+                    <div class="enhanced-search-content">
+                        <div class="description">
+                            <p>Summarize multiple answers across your knowledge base into new insights.</p>
+                            <button>
+                                <i class="fa-solid fa-play"></i>&nbsp;
+                                Play overview video
+                            </button>
+                        </div>
+                        <div class="enhanced-search-video">
+                            <iframe title="Looping overview video for Enhanced Search" loading="lazy" class="ps-absolute t0 r0 l0 b0 w100 h100" src="https://fast.wistia.net/embed/iframe/ezf6v7caae?seo=false&amp;videoFoam=true&amp;doNotTrack=true&amp;seo=false&amp;videoFoam=false&amp;fitStrategy=cover&amp;autoPlay=true&amp;muted=true&amp;controlsVisibleOnLoad=false&amp;playbar=false&amp;volumeControl=false&amp;fullscreenButton=false&amp;silentAutoPlay=true&amp;settingsControl=false&amp;plugin[captions-v1]=false&amp;smallPlayButton=false&amp;endVideoBehavior=loop" frameborder="0" scrolling="no" allow="autoplay" data-v-0f3dd90b=""></iframe>
+                        </div>  
+                    </div>
+                    <div class="enhanced-search-sub-content">
+                        <div class="left-content">
+                            <p>Source and summarize knowledge to move past blockers faster.</p>
+                            <img src="../assets/images/teams-overflowai-search-faster.svg" alt="">
+                        </div>
+                        <div class="right-content">
+                            <p>Get summarized insights from the global Stack Overflow community.</p>
+                            <img src="../assets/images/teams-overflowai-community.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="vscode" id="vscode">
+                    <p>
+                        <svg aria-hidden="true" class="svg-icon iconMarketingVscode w48 h48 mb12" width="20" height="20" viewBox="0 0 112 112" data-v-0f3dd90b=""><path fill="currentColor" d="M100.6 18.1 80.85 8.6a6 6 0 0 0-6.82 1.16l-64.72 59a4 4 0 0 0 0 5.92l5.3 4.8a4 4 0 0 0 5.1.23l77.93-59.12a3.97 3.97 0 0 1 6.37 3.16v-.23a6 6 0 0 0-3.4-5.4"></path><g filter="url(#MarketingVscodea)"><path fill="currentColor" d="m100.6 93.34-19.76 9.52a6 6 0 0 1-6.82-1.16L9.3 42.7a4 4 0 0 1 0-5.92l5.3-4.8a4 4 0 0 1 5.1-.23l77.93 59.12a3.97 3.97 0 0 0 6.37-3.16v.23a6 6 0 0 1-3.4 5.4"></path></g><g filter="url(#MarketingVscodeb)"><path fill="currentColor" d="M80.84 102.86a6 6 0 0 1-6.82-1.16c2.21 2.21 6 .64 6-2.48V12.23c0-3.13-3.79-4.7-6-2.48a6 6 0 0 1 6.82-1.16l19.77 9.5a6 6 0 0 1 3.4 5.4v64.46a6 6 0 0 1-3.4 5.4z"></path></g><path fill="currentColor" d="M76.04 103.04c1.5.6 3.23.55 4.76-.18l19.75-9.5a6 6 0 0 0 3.4-5.41V23.5a6 6 0 0 0-3.4-5.4L80.8 8.58a6 6 0 0 0-6.82 1.16l-37.82 34.5-16.47-12.5a4 4 0 0 0-5.1.22l-5.29 4.8a4 4 0 0 0 0 5.92l14.28 13.03L9.3 68.76a4 4 0 0 0 0 5.9l5.29 4.81a4 4 0 0 0 5.1.23l16.47-12.5 37.82 34.5q.91.9 2.06 1.34m3.93-69.1-28.7 21.78 28.7 21.79z" opacity=".25" style="mix-blend-mode:overlay;"></path><defs><filter id="a" width="112" height="88.51" x="0" y="22.94" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><filter id="b" width="45.98" height="111.45" x="66.02" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><linearGradient id="MarketingVscodec" x1="55.97" x2="55.97" y1="8" y2="103.45" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient></defs></svg>
+                        &nbsp;
+                        Stack Overflow for Visual Studio Code
+                    </p>
+                    <h2>Take your developer experience <strong>to the next level.</strong></h2>
+                    <div class="vscode-content">
+                        <div class="description">
+                            <p>The power of Stack Overflow in your coding environment.</p>
+                            <button>
+                                <i class="fa-solid fa-play"></i>&nbsp;
+                                Play overview video
+                            </button>
+                        </div>
+                        <div class="vscode-video">
+                            <iframe title="Looping overview video for Stack Overflow for&nbsp;Visual Studio Code" loading="lazy" class="ps-absolute t0 r0 l0 b0 w100 h100" src="https://fast.wistia.net/embed/iframe/qb9aga4dx1?seo=false&amp;videoFoam=true&amp;doNotTrack=true&amp;seo=false&amp;videoFoam=false&amp;fitStrategy=cover&amp;autoPlay=true&amp;muted=true&amp;controlsVisibleOnLoad=false&amp;playbar=false&amp;volumeControl=false&amp;fullscreenButton=false&amp;silentAutoPlay=true&amp;settingsControl=false&amp;plugin[captions-v1]=false&amp;smallPlayButton=false&amp;endVideoBehavior=loop" frameborder="0" scrolling="no" allow="autoplay" data-v-0f3dd90b=""></iframe>
+                        </div>  
+                    </div>
+                    <div class="vscode-sub-content">
+                        <div class="left-content">
+                            <p>Better understand how your code works with code explanations.</p>
+                            <img src="../assets/images/teams-overflowai-vscode-share.svg" alt="">
+                        </div>
+                        <div class="right-content">
+                            <p>Share your discoveries back to your team without breaking your flow.</p>
+                            <img src="../assets/images/teams-overflowai-vscode-search.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="auto-answer" id="auto-answer">
+                    <p> <svg aria-hidden="true" class="svg-icon iconMarketingAutoAnswer w48 h48 mb12" width="20" height="20" viewBox="0 0 96 96" data-v-0f3dd90b=""><path fill="currentcolor" d="M10.62 15.76C7.67 20.5 7.5 26.46 7.5 38.74v49.19a2.07 2.07 0 0 0 3.34 1.63l16.99-13.21c3.88.3 8.72.3 15 .3h10.34c13.7 0 20.55 0 25.57-3.12a21 21 0 0 0 6.64-6.64c3.12-5.01 3.12-11.87 3.12-25.57s0-20.55-3.12-25.56a21 21 0 0 0-6.64-6.64C73.72 6 66.87 6 53.17 6H42.83c-13.7 0-20.55 0-25.57 3.12a21 21 0 0 0-6.64 6.64m50.71 1.3c.18-.41.26-.62.39-.68q.17-.07.33 0c.13.06.21.27.39.68l1.04 2.48c.5 1.2.75 1.79 1.12 2.3q.5.67 1.17 1.16c.5.37 1.1.62 2.3 1.12l2.48 1.05c.4.17.61.26.68.38q.07.16 0 .34c-.07.12-.27.2-.68.38l-2.49 1.05c-1.19.5-1.78.75-2.29 1.12q-.67.5-1.17 1.17c-.37.5-.62 1.1-1.12 2.29l-1.04 2.48c-.18.41-.26.62-.39.68a.4.4 0 0 1-.33 0c-.13-.06-.21-.27-.39-.68L60.3 31.9c-.5-1.2-.76-1.79-1.12-2.3A5 5 0 0 0 58 28.45c-.5-.37-1.1-.62-2.3-1.12l-2.48-1.05c-.41-.17-.62-.26-.68-.38a.4.4 0 0 1 0-.34c.06-.12.27-.2.68-.38l2.48-1.05c1.2-.5 1.8-.75 2.3-1.12q.67-.49 1.17-1.17c.36-.5.62-1.1 1.12-2.29zM40.36 29.14c.34-.8.51-1.2.75-1.33.2-.1.46-.1.66 0 .24.12.42.53.76 1.33l2.05 4.88c.98 2.34 1.48 3.51 2.2 4.5q.97 1.33 2.3 2.3c1 .73 2.16 1.22 4.5 2.2l4.88 2.06c.8.34 1.21.5 1.33.75a.7.7 0 0 1 0 .66c-.12.24-.52.41-1.33.75l-4.88 2.06c-2.34.98-3.5 1.47-4.5 2.2q-1.33.96-2.3 2.3c-.72.99-1.22 2.16-2.2 4.5l-2.05 4.87c-.34.81-.52 1.22-.76 1.34-.2.1-.45.1-.66 0-.24-.12-.41-.53-.75-1.34L38.3 58.3c-.98-2.34-1.47-3.51-2.2-4.5a11 11 0 0 0-2.3-2.3c-.99-.73-2.16-1.22-4.5-2.2l-4.87-2.06c-.81-.34-1.22-.5-1.34-.75a.7.7 0 0 1 0-.66c.12-.24.53-.41 1.34-.75l4.87-2.06c2.34-.98 3.51-1.47 4.5-2.2q1.34-.97 2.3-2.3c.73-.99 1.22-2.16 2.2-4.5z"></path></svg>&nbsp;
+                    Auto-Answer App
+                    </p>
+                    <h2><strong>Automate access</strong>to essential team knowledge.</h2>
+                    <div class="auto-answer-content">
+                        <div class="description">
+                            <p>Spend less time and resources providing and searching for answers.</p>
+                            <button>
+                                <i class="fa-solid fa-play"></i>&nbsp;
+                                Play overview video
+                            </button>
+                        </div>
+                        <div class="auto-answer-video">
+                            <iframe title="Looping overview video for Auto-Answer App" loading="lazy" class="ps-absolute t0 r0 l0 b0 w100 h100" src="https://fast.wistia.net/embed/iframe/fbvdy7v9tm?seo=false&amp;videoFoam=true&amp;doNotTrack=true&amp;seo=false&amp;videoFoam=false&amp;fitStrategy=cover&amp;autoPlay=true&amp;muted=true&amp;controlsVisibleOnLoad=false&amp;playbar=false&amp;volumeControl=false&amp;fullscreenButton=false&amp;silentAutoPlay=true&amp;settingsControl=false&amp;plugin[captions-v1]=false&amp;smallPlayButton=false&amp;endVideoBehavior=loop" frameborder="0" scrolling="no" allow="autoplay" data-v-0f3dd90b=""></iframe>
+                        </div>  
+                    </div>
+                    <div class="auto-answer-sub-content">
+                        <div class="left-content">
+                            <p>Source information automatically without needing Slack commands.</p>
+                            <img src="../assets/images/teams-overflowai-slack.png" alt="">
+                        </div>
+                        <div class="right-content">
+                            <p>Return answers automatically to select Microsoft Teams channels.</p>
+                            <img src="../assets/images/teams-overflowai-microsoft-teams.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- /* knowledge community section end */ -->
+
+    <!-- Enterprises plan start -->
+
+    <section class="enterprise-plan-container">
+        <div class="enterprise-plan-sub-container">
+            <h1>Level up your Enterprise plan.</h1>
+            <p>OverflowAI is a GenAI-powered add-on for Stack Overflow for Teams Enterprise.</p>
+            <div class="enterprise-plan-cards">
+                <div class="enterprise-plan-card left-card-plan" data-aos="fade-left">
+                    <h2>Enterprise</h2>
+                    <div>
+                        <h3>Custom pricing</h3>
+                        <p>Let’s talk about what you need</p>
+                    </div>
+                   
+                    <button>Talk to an expert</button>
+                    <div class="enterprise-plan-features">
+                        <div class="enterprise-plan-feature">
+                            <i class="fa-solid fa-plus"></i>&nbsp;
+                            Premium features of Business plus…
+                        </div>
+                        <div class="enterprise-plan-feature">
+                            <i class="fa-solid fa-users"></i>&nbsp;
+                            Unlimited Teams within your instance
+                        </div>
+                        <div class="enterprise-plan-feature">
+                            <i class="fa-solid fa-message"></i>&nbsp;
+                            Communites on Teams
+                        </div>
+                        <div class="enterprise-plan-feature">
+                            <i class="fa-solid fa-code"></i>&nbsp;
+                            Robust read and write API
+                        </div>
+                        <div class="enterprise-plan-feature">
+                            <i class="fa-solid fa-headphones"></i>&nbsp;
+                            Your own customer success and community building representative
+                        </div>
+                        <div class="enterprise-plan-feature">
+                            <i class="fa-solid fa-suitcase-medical"></i>&nbsp;
+                            99.5% uptime SLA and priority support
+                        </div>
+                        <div class="enterprise-plan-feature">
+                            <i class="fa-solid fa-wrench"></i>&nbsp;
+                            Content Health
+                        </div>
+                    </div>
+                    <hr>
+                    <p>Unlimited teammates</p>
+                </div>
+                <div class="enterprise-plan-card right-card-plan" data-aos="fade-right">
+                    <div class="overflow_icon">
+                        <svg aria-hidden="true" class="svg-icon iconMarketingOverflowai native" width="177" height="37" viewBox="0 0 345 72" data-v-0f3dd90b=""><path fill="currentColor" d="M84.22 32.4c-3.97 0-6.65 1.53-8.32 3.29-2.43 2.5-3.06 5.54-3.06 10.37 0 4.88.63 7.92 3.06 10.43 1.63 1.75 4.35 3.29 8.32 3.29s6.7-1.54 8.38-3.3c2.42-2.5 3.05-5.54 3.05-10.42 0-4.83-.63-7.87-3.05-10.37-1.68-1.76-4.4-3.3-8.38-3.3m3.14 20.17c-.8.79-1.8 1.16-3.14 1.16a4.2 4.2 0 0 1-3.1-1.16c-1.37-1.38-1.54-3.75-1.54-6.55s.17-5.08 1.55-6.46a4 4 0 0 1 3.1-1.17c1.33 0 2.38.42 3.13 1.17 1.39 1.38 1.55 3.71 1.55 6.46 0 2.8-.16 5.17-1.55 6.55m26.12-19.89-5.44 16.55-5.48-16.55h-7.03l9.92 26.8h5.27l9.88-26.8zm18.5-.29c-6.99 0-11.72 4.92-11.72 13.67 0 10.84 6.12 13.72 12.44 13.72 4.85 0 7.49-1.5 10.2-4.21l-4.05-3.96c-1.72 1.7-3.14 2.5-6.11 2.5-3.77 0-5.9-2.5-5.9-5.96h16.82v-3c.05-7.34-4.18-12.76-11.67-12.76m-5.1 11.17c.04-1.16.2-1.91.63-2.87a4.7 4.7 0 0 1 4.48-2.8 4.6 4.6 0 0 1 4.47 2.8c.42.96.59 1.7.63 2.87zm26.75-8.3v-2.58h-6.58v26.8h6.7v-16.1c0-3.38 2.26-4.92 4.35-4.92 1.64 0 2.52.54 3.56 1.58l5.07-5.09c-1.84-1.83-3.73-2.5-6.37-2.5a9 9 0 0 0-6.74 2.84m15.19-5.37v29.56h6.7V38.3h4.98v-5.08h-4.94V30.3c0-1.54.8-2.42 2.38-2.42h2.6v-5.67h-3.8c-5.53 0-7.92 3.88-7.92 7.67m39.3 2.5c-3.97 0-6.65 1.54-8.33 3.3-2.42 2.5-3.05 5.54-3.05 10.37 0 4.88.63 7.92 3.05 10.43 1.64 1.75 4.36 3.29 8.33 3.29 3.98 0 6.7-1.54 8.38-3.3 2.42-2.5 3.05-5.54 3.05-10.42 0-4.83-.63-7.87-3.06-10.37-1.63-1.76-4.39-3.3-8.37-3.3m3.19 20.18c-.8.79-1.8 1.16-3.14 1.16a4.2 4.2 0 0 1-3.1-1.16c-1.38-1.38-1.55-3.75-1.55-6.55s.17-5.08 1.55-6.46c.8-.79 1.76-1.17 3.1-1.17s2.38.42 3.14 1.17c1.38 1.38 1.54 3.71 1.54 6.46 0 2.8-.16 5.17-1.54 6.55m39.97-19.89-4.35 16.55-5.53-16.55h-4.9l-5.48 16.55-4.35-16.55h-7.12l8.25 26.8h5.52l5.61-16.8 5.61 16.8h5.53l8.28-26.8zM190.42 51.4V22.22h-6.7v29.6c0 3.8 2.34 7.67 7.87 7.67h3.8v-5.67h-2.59c-1.71 0-2.38-.84-2.38-2.42"></path><path fill="#F48024" d="M283.26 12.25a10 10 0 0 0-9.57 7.09l-11.4 37.5a10 10 0 0 0 9.56 12.91h51.3a10 10 0 0 0 9.57-7.09l11.4-37.5a10 10 0 0 0-9.56-12.91zm31.34 41.03V28.72h-4.1v-5.88h15.29v5.88h-4.1v24.56h4.1v5.88H310.5v-5.88zm-30.69-24.51h-2.69v-5.88h12.47l9.5 30.4h3.83v5.87h-13.45v-5.88h2.86l-1.1-4h-11.25l-1.1 4h3.63v5.88h-13.45v-5.88h3.05zm1.8 14.64h8l-4-14.47z"></path><path fill="#BCBBBB" d="M51.56 46.33v18.95H6.75V46.33H0V72h58.3V46.33z"></path><path fill="#F48024" d="M12.92 59.17h32.49v-6.11H12.92zm.65-14.62 31.56 6.6 1.3-6.27-31.56-6.6zm4.16-15.06 29.22 13.58 2.72-5.82-29.22-13.58zm8.11-14.3 24.8 20.57 4.16-4.92-24.87-20.56zM41.82 0l-5.2 3.82 19.22 25.8 5.2-3.82z"></path></svg>
+                    </div>
+                    <hr>
+                    <div class="plan-cost">
+                        <strong>+$10</strong>
+                        <span>additional cost per user/per month</span>
+                    </div>
+                    <hr>
+                    <div class="plans-features-right-card" >
+                        <div class="enchaned-search">
+                            <svg aria-hidden="true" class="svg-icon iconMarketingEnhancedSearch w48 h48 mb12" width="20" height="20" viewBox="0 0 96 96" data-v-0f3dd90b=""><g><path fill="currentColor" fill-opacity="0.2" d="M81 49.5a40.5 40.5 0 1 1-81 0 40.5 40.5 0 0 1 81 0m-70.25 0a29.75 29.75 0 1 0 59.5 0 29.75 29.75 0 0 0-59.5 0"></path><path fill="currentColor" fill-opacity=".8"  d="M63.13 83.09a40.5 40.5 0 0 0 .05-67.14l-6.02 8.9a29.75 29.75 0 0 1-.03 49.32zM79.02 8.68 76.68 4l-2.35 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L72 8.68l4.68 2.34 4.68-2.34zm9.34 14.34L83.68 16l-2.34 4.68zm-4.67 0 2.34 4.69 2.34-4.69zm2.33-2.34L79 20.68l4.68 2.34 4.68-2.34zm5.29 62.03L84.3 71l-4.68 9.36h-.01l4.68 9.37zm-4.67-4.69-9.37 4.68 9.36 4.69zm0 9.37 9.37-4.68-9.37-4.68z"></path></g></svg>&nbsp;
+                        Enhanced Search
+                        </div>
+                        <div class="vscode">
+                             <svg aria-hidden="true" class="svg-icon iconMarketingVscode w48 h48 mb12" width="20" height="20" viewBox="0 0 112 112" data-v-0f3dd90b=""><path fill="currentColor" d="M100.6 18.1 80.85 8.6a6 6 0 0 0-6.82 1.16l-64.72 59a4 4 0 0 0 0 5.92l5.3 4.8a4 4 0 0 0 5.1.23l77.93-59.12a3.97 3.97 0 0 1 6.37 3.16v-.23a6 6 0 0 0-3.4-5.4"></path><g filter="url(#MarketingVscodea)"><path fill="currentColor" d="m100.6 93.34-19.76 9.52a6 6 0 0 1-6.82-1.16L9.3 42.7a4 4 0 0 1 0-5.92l5.3-4.8a4 4 0 0 1 5.1-.23l77.93 59.12a3.97 3.97 0 0 0 6.37-3.16v.23a6 6 0 0 1-3.4 5.4"></path></g><g filter="url(#MarketingVscodeb)"><path fill="currentColor" d="M80.84 102.86a6 6 0 0 1-6.82-1.16c2.21 2.21 6 .64 6-2.48V12.23c0-3.13-3.79-4.7-6-2.48a6 6 0 0 1 6.82-1.16l19.77 9.5a6 6 0 0 1 3.4 5.4v64.46a6 6 0 0 1-3.4 5.4z"></path></g><path fill="currentColor" d="M76.04 103.04c1.5.6 3.23.55 4.76-.18l19.75-9.5a6 6 0 0 0 3.4-5.41V23.5a6 6 0 0 0-3.4-5.4L80.8 8.58a6 6 0 0 0-6.82 1.16l-37.82 34.5-16.47-12.5a4 4 0 0 0-5.1.22l-5.29 4.8a4 4 0 0 0 0 5.92l14.28 13.03L9.3 68.76a4 4 0 0 0 0 5.9l5.29 4.81a4 4 0 0 0 5.1.23l16.47-12.5 37.82 34.5q.91.9 2.06 1.34m3.93-69.1-28.7 21.78 28.7 21.79z" opacity=".25" style="mix-blend-mode:overlay;"></path><defs><filter id="a" width="112" height="88.51" x="0" y="22.94" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><filter id="b" width="45.98" height="111.45" x="66.02" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset></feOffset><feGaussianBlur stdDeviation="4"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix><feBlend in2="BackgroundImageFix" mode="overlay" result="effect1_dropShadow_751_774"></feBlend><feBlend in="SourceGraphic" in2="effect1_dropShadow_751_774" result="shape"></feBlend></filter><linearGradient id="MarketingVscodec" x1="55.97" x2="55.97" y1="8" y2="103.45" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></linearGradient></defs></svg>
+                        &nbsp;
+                        Stack Overflow for Visual Studio Code
+                        </div>
+                        <div class="auto-answer">
+                            <p> <svg aria-hidden="true" class="svg-icon iconMarketingAutoAnswer w48 h48 mb12" width="20" height="20" viewBox="0 0 96 96" data-v-0f3dd90b=""><path fill="currentcolor" d="M10.62 15.76C7.67 20.5 7.5 26.46 7.5 38.74v49.19a2.07 2.07 0 0 0 3.34 1.63l16.99-13.21c3.88.3 8.72.3 15 .3h10.34c13.7 0 20.55 0 25.57-3.12a21 21 0 0 0 6.64-6.64c3.12-5.01 3.12-11.87 3.12-25.57s0-20.55-3.12-25.56a21 21 0 0 0-6.64-6.64C73.72 6 66.87 6 53.17 6H42.83c-13.7 0-20.55 0-25.57 3.12a21 21 0 0 0-6.64 6.64m50.71 1.3c.18-.41.26-.62.39-.68q.17-.07.33 0c.13.06.21.27.39.68l1.04 2.48c.5 1.2.75 1.79 1.12 2.3q.5.67 1.17 1.16c.5.37 1.1.62 2.3 1.12l2.48 1.05c.4.17.61.26.68.38q.07.16 0 .34c-.07.12-.27.2-.68.38l-2.49 1.05c-1.19.5-1.78.75-2.29 1.12q-.67.5-1.17 1.17c-.37.5-.62 1.1-1.12 2.29l-1.04 2.48c-.18.41-.26.62-.39.68a.4.4 0 0 1-.33 0c-.13-.06-.21-.27-.39-.68L60.3 31.9c-.5-1.2-.76-1.79-1.12-2.3A5 5 0 0 0 58 28.45c-.5-.37-1.1-.62-2.3-1.12l-2.48-1.05c-.41-.17-.62-.26-.68-.38a.4.4 0 0 1 0-.34c.06-.12.27-.2.68-.38l2.48-1.05c1.2-.5 1.8-.75 2.3-1.12q.67-.49 1.17-1.17c.36-.5.62-1.1 1.12-2.29zM40.36 29.14c.34-.8.51-1.2.75-1.33.2-.1.46-.1.66 0 .24.12.42.53.76 1.33l2.05 4.88c.98 2.34 1.48 3.51 2.2 4.5q.97 1.33 2.3 2.3c1 .73 2.16 1.22 4.5 2.2l4.88 2.06c.8.34 1.21.5 1.33.75a.7.7 0 0 1 0 .66c-.12.24-.52.41-1.33.75l-4.88 2.06c-2.34.98-3.5 1.47-4.5 2.2q-1.33.96-2.3 2.3c-.72.99-1.22 2.16-2.2 4.5l-2.05 4.87c-.34.81-.52 1.22-.76 1.34-.2.1-.45.1-.66 0-.24-.12-.41-.53-.75-1.34L38.3 58.3c-.98-2.34-1.47-3.51-2.2-4.5a11 11 0 0 0-2.3-2.3c-.99-.73-2.16-1.22-4.5-2.2l-4.87-2.06c-.81-.34-1.22-.5-1.34-.75a.7.7 0 0 1 0-.66c.12-.24.53-.41 1.34-.75l4.87-2.06c2.34-.98 3.51-1.47 4.5-2.2q1.34-.97 2.3-2.3c.73-.99 1.22-2.16 2.2-4.5z"></path></svg>&nbsp;
+                                Auto-Answer App
+                        </div>
+                    </div>
+                    <hr>
+                    <p>More features coming soon…</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enterprises plan end -->
+
+    <section class="faq-container">
+        <div class="faq-sub-container">
+            <div class="faq-head">
+                <div class="faq-heading">
+                    <h1>Your top questions answered</h1>
+                    <p>Frequently asked questions.</p>
+                </div>
+                <div class="faq-icon">
+                    <svg aria-hidden="true" class="svg-spot spotQuestionLg fc-purple-400" width="96" height="96" viewBox="0 0 96 96" data-v-0f3dd90b=""><path fill="currentColor" d="M93 19.99A10 10 0 0 0 83 10H16a7 7 0 0 0-7 7v73l11.97-12.56.44-.44H83a10 10 0 0 0 10-9.99zM67.4 68.72c-3.75-1.16-7.67-2.64-10.49-5.46a25 25 0 0 1-9.08 1.62c-13.44.66-22.66-10.58-22.66-23.64-.74-12.87 9.04-24.28 22.3-23.64a21.5 21.5 0 0 1 16.16 6.28c4.06 4.21 5.98 10.05 5.98 17.36 0 3.84-.6 7.32-1.63 10.27a22 22 0 0 1-3.02 5.4c2.16 1.37 4.54 2.23 6.93 3.1z" opacity=".2"></path><path fill="currentColor" d="M17.14 71h61.11c1.3 0 2.62-.1 3.78-.4a5 5 0 0 0 2.48-1.22A8.8 8.8 0 0 0 87 63.5v-49c0-1.85-.82-3.52-2.5-5.2A8 8 0 0 0 78.95 7H13.69C9.29 7 6 10.24 6 14.5v68.4zM3 90.5v-76C3 8.52 7.7 4 13.69 4h65.25c2.88 0 5.65 1.15 7.69 3.19C88.67 9.22 90 11.62 90 14.5v49a11.8 11.8 0 0 1-3.37 8c-2.04 2.04-5.5 2.5-8.38 2.5H18.44zm62.07-43.65a29 29 0 0 0 1.52-9.74c0-7.01-1.9-12.45-5.6-16.3a20 20 0 0 0-15.11-5.83 20 20 0 0 0-15.23 5.82 22.6 22.6 0 0 0-5.6 16.31c0 7.02 1.9 12.46 5.6 16.32a20.4 20.4 0 0 0 15.5 5.81c3.37 0 6.52-.6 9.3-1.84l1.22.82c2.75 1.87 4.25 2.89 4.54 2.98q1.86 1.06 3.8 1.63l3.22-6.14a28 28 0 0 1-6.96-3.59q1.01-1.18 1.82-2.39a19 19 0 0 0 1.98-3.86m-19.2-34.87a23 23 0 0 1 17.25 6.7l.02.02.02.03c4.37 4.56 6.43 10.82 6.43 18.38q-.01 6.02-1.69 10.74v.02l-.02.03a22 22 0 0 1-2.24 4.38q1.73.93 3.58 1.58L72.49 55l-5.95 11.4-2.36-.7a21 21 0 0 1-4.63-1.99q-.24-.12-.47-.28l-1.21-.79-2.78-1.87c-2.77 1-5.77 1.46-8.85 1.46a23.5 23.5 0 0 1-17.69-6.67l-.03-.03-.03-.04c-4.36-4.54-6.42-10.78-6.44-18.3a25.6 25.6 0 0 1 6.35-18.38l.07-.08.07-.07a23 23 0 0 1 17.34-6.69m8.54 14.04a10.9 10.9 0 0 0-8.59-3.64 10.9 10.9 0 0 0-8.53 3.64q-3.27 3.75-3.27 11.1 0 7.5 3.27 11.25a11 11 0 0 0 2.5 2.13q1.74 1.09 3.82 1.42.94.15 1.94.15 1.89-.01 3.54-.6A29 29 0 0 0 44.4 49l-.65-.25 2.44-4.9a29 29 0 0 1 8.16 4.36 12 12 0 0 0 1.62-2.54q.48-1.02.83-2.2.89-2.76.87-6.36 0-7.41-3.27-11.09M40.95 47.67a9 9 0 0 1-1.41-1.28c-1.5-1.74-2.52-4.65-2.52-9.28 0-4.5 1-7.36 2.52-9.1a7.9 7.9 0 0 1 6.17-2.63h.24A7.9 7.9 0 0 1 52.17 28c1.5 1.68 2.5 4.53 2.5 9.1q0 3.25-.72 5.44l-.01.04-.01.04q-.21.71-.48 1.34a32 32 0 0 0-6.27-2.95l-2.48-.86z"></path></svg>
+                </div>
+            </div>
+            <div class="faq-qus-container">
+                <hr>
+                <div class="faq">
+                    <div class="faq-qus">
+                        <h2>We already use GitHub Copilot. How is this different?</h2>
+                        <p>
+                            AI-powered code generation tools like GitHub Copilot make it easier to write boilerplate code, but they don’t eliminate the need to consult with your organization’s domain experts to work through logic, debugging, and other complex problems. <br><br>
+                            Stack Overflow for Teams is a knowledge-sharing platform that transfers contextual knowledge validated by your domain experts to other employees, and can even be used to foster a code generation community of practice that champions early adopters and scales their learnings. OverflowAI makes this trusted internal knowledge—along with knowledge validated by the global Stack Overflow community—instantly accessible in places like your IDE so it can be used alongside code generation tools to learn more about your codebase and speed up your time-to-production.
+                        </p>
+                    </div>
+                    <div class="faq-icon">
+                        <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq">
+                    <div class="faq-qus">
+                        <h2>We already have too many tools. Why do we need this?</h2>
+                        <p>
+                            Sometimes the number of tools isn’t the problem—low tool adoption is. Low tool adoption often occurs because people don’t know where to find help or who to ask about issues, processes, and best practices. <br><br>
+                            This is where Stack Overflow for Teams shines—it drives tool adoption by scaling communities of practice and domain expertise. Many organizations use it to optimize their developer experience, and OverflowAI takes it to the next level with validated answers that span your internal community, stackoverflow.com, and soon, tools like GitHub and Jira. To prevent tool switching, we offer a robust read/write API and out-of-the-box integrations. And to help drive long-term engagement, we offer tailored knowledge management services and actionable analytics.
+                        </p>
+                    </div>
+                    <div class="faq-icon">
+                        <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq">
+                    <div class="faq-qus">
+                        <h2>We already use ChatGPT. How is this different?</h2>
+                        <p>
+                            ChatGPT is designed to generate answers for individuals, using existing resources. People can save their prompt history, but others in the organization can’t discover or search their history. That leaves people operating in silos, potentially duplicating efforts or expanding knowledge gaps. ChatGPT also doesn’t maintain and update knowledge. <br><br>
+                            Stack Overflow for Teams is built with a knowledge-sharing community as the foundation. It removes silos by collecting and distributing trusted knowledge throughout your organization, and can even be used alongside ChatGPT to foster a community of practice. Features like Content Health and Communities encourage teams to document, validate, and maintain knowledge in a central place. OverflowAI then summarizes this knowledge—along with knowledge validated by the global Stack Overflow community—into attributed insights in your web browser, IDE, and chat apps.
+                        </p>
+                    </div>
+                    <div class="faq-icon">
+                        <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq">
+                    <div class="faq-qus">
+                        <h2>How is this different from Enterprise Search tools?</h2>
+                        <p>
+                            Enterprise Search tools are great for surfacing existing knowledge, but they aren’t great for documenting or managing new knowledge. <br><br>
+                            Stack Overflow for Teams provides a fresh source of contextual knowledge that’s shared, validated, and maintained by your internal community. It offers features like gamification, Communities, and Content Health that Enterprise Search tools typically don’t have, and has a robust read/write API so you can surface Stack Overflow for Teams knowledge in your own portals and search tools. Enhanced Search upgrades your search experience by summarizing the most relevant search results across private and public Stack Overflow knowledge into answers that attribute sources.
+                        </p>
+                    </div>
+                    <div class="faq-icon">
+                        <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq">
+                    <div class="faq-qus">
+                        <h2>This looks like just another thing I would need to manage.</h2>
+                        <p>
+                            Good news: We do a lot of the management for you! <br><br>
+                            Stack Overflow for Teams and OverflowAI are hosted by us so you’ll always be on the latest version and have uninterrupted access to new features. You’ll also receive white-glove support with our tailored knowledge management services, which include onboarding and training, communication best practices and templates, rollout planning, and more. We’ve even been awarded “Most Implementable” by G2. And much of the platform has been designed to programmatically promote engagement with features like smart recommendations and gamification.
+                        </p>
+                    </div>
+                    <div class="faq-icon">
+                        <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="faq">
+                    <div class="faq-qus">
+                        <h2>We already use GitHub Copilot. How is this different?</h2>
+                        <p>
+                            AI-powered code generation tools like GitHub Copilot make it easier to write boilerplate code, but they don’t eliminate the need to consult with your organization’s domain experts to work through logic, debugging, and other complex problems. <br><br>
+                            Stack Overflow for Teams is a knowledge-sharing platform that transfers contextual knowledge validated by your domain experts to other employees, and can even be used to foster a code generation community of practice that champions early adopters and scales their learnings. OverflowAI makes this trusted internal knowledge—along with knowledge validated by the global Stack Overflow community—instantly accessible in places like your IDE so it can be used alongside code generation tools to learn more about your codebase and speed up your time-to-production.
+                        </p>
+                    </div>
+                    <div class="faq-icon">
+                        <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     
+    <div class="footer">
+        <div class="main-footer">
+            <div class="l-footer">
+                <div class="l-f-img">
+                    <img src="https://cdn.cookielaw.org/logos/481fe84d-93cd-45d7-9ee5-d340809f8e77/8f3efd92-e54f-4c99-a125-ae0c75e79ddd/5f962ad8-0e6b-448b-a8fc-773412c206d3/so-logo.png"
+                        alt="" id="image">
+                </div>
+                <div class="stack-team">
+                    <div class="l-f-main">
+                        <div class="left-stack"><br><br>
+                            <span class="heading-span"><a href="">Stack OverFlow for Teams</a></span><br><br><br>
+                            <ul>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Customers</a></li>
+                                <li><a href="">Our solution</a></li>
+                                <li><a href="">Integration</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Customers Success</a></li>
+                                <li><a href="">Security</a></li>
+                                <li><a href="">Return on Investment(RO)</a></li><br><br>
+                            </ul>
+                            <div class="mid-left-footer">
+                                <span class="Overflow">OverFlow <span class="new">NEW</span></span><br>
+                                <span class="now">Now available on Enterprise</span><br><br><br>
+                            </div>
+                            <div class="try-footer">
+                                <span><a href="">Try free</a></span><br><br>
+                                <span><a href="">Log in</a></span>
+                            </div>
+                        </div>
+                        <div class="right-stack"> <br><br><br><br><br>
+                            <ul>
+                                <li><a href="">Use cases</a></li>
+                                <li><a href="">Engineers</a></li>
+                                <li><a href="">Data Scientists</a></li>
+                                <li><a href="">DevOps & SRE</a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Product Management</a></li><br><br>
+                                <li><a href="">Resources</a></li>
+                                <li><a href="">Productivity</a></li>
+                                <li><a href="">AI/ML</a></li>
+                                <li><a href="">Guides and Insights</a></li>
+                                <li><a href="">Customers Academy</a></li><br><br>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Help Centre</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-f">
+                <div class="mid-f-main">
+                    <div class="ad-left"><br><br>
+                        <span class=".heading-span add"><a href="">Stack Overflow Adervertising</a></span><br><br><br>
+                        <ul>
+                            <li><a href="">Why Stack Overflow</a></li>
+                            <li><a href="">What to expect</a></li>
+                            <li><a href="">Advertise to developers</a></li>
+                            <li><a href="">Attract tech talent</a></li>
+                            <li><a href="">Engage your community</a></li><br><br><br>
+                            <li id="post"><a href="">Post a job</a></li>
+                            <span class="powered"><a href="">Powered by Indeed</a></span>
+                        </ul>
+                    </div>
+                    <div class="ad-right"><br><br><br><br><br><br>
+                        <span><a href="">Use cases</a></span><br>
+                        <li><a href="">marketing Teams</a></li>
+                        <li><a href="">Employer Branding Teams</a></li>
+                        <li><a href="">DevRel Teams</a></li>
+                        <li><a href="">Talent Teams</a></li>
+                        <li><a href="">Technology Teams</a></li>
+                        <li><a href="">Agencies</a></li><br><br>
+                        <span><a href=""><a href="">Resources</a></a></span>
+                        <li><a href="">Product guides and insights</a></li>
+                        <li><a href="">Community insights</a></li>
+                        <li><a href="">Advertising best practices</a></li>
+                        <li><a href="">Talent best practices</a></li>
+                        <li><a href="">Collectives</a><sup>TM</sup></li>
+                    </div>
+                </div>
+            </div>
+            <div class="r-footer">
+                <ul class="mode">
+                    <li class="green"><a href="">Lights</a></li>
+                    <li><a href="">Dark</a></li>
+                    <li class="auto"><a href="">Auto</a></li>
+                </ul><br><br>
+                <span class="heading-span"><a href="">Company</a></span><br><br><br>
+                <span class="Overflow"><a href="">OverflowAPI</a><span class="new">NEW</span></span><br><br>
+                <span class="now">Stack Overflow's <br> subscription-based API <br>service to train and fine- <br> tune
+                    large models.</span><br><br><br>
+                <span>About</span><br>
+                <ul>
+                    <li><a href="">Leadership</a></li>
+                    <li><a href="">Social Impact</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Open positions</a></li>
+                    <li><a href="">Contact us</a></li><br><br>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Newsletter</a></li>
+                    <li><a href="">Podcast</a></li>
+                    <li><a href="">Labs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="copyright-left">
+            <span>
+                Site design / logo © 2024 Stack Exchange Inc. <br>
+                User contributions licensed under CC BY-SA.
+            </span>
+        </div>
+        <div class="copyright-right">
+            <ul>
+                <li>Terms</li>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+                <li>Go to Stackoverflow.com</li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li>thread</li>
+                <li>insta</li>
+                <li>Youtube</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        //   delay:100,
+          duration:1000,
+          once:false
+        })
+      </script>
+    <script src="https://kit.fontawesome.com/ea6665dc53.js" crossorigin="anonymous"></script>
+</body>
+</html>
