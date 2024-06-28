@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #f1edea;
+
+}
+
+
+section {
+    width: 95%;
+    margin: auto;
+    height: auto;
+    /* border: 2px solid rgb(214, 93, 22); */
+}
+
+.main-heading p {
+
+    font-weight: 400;
+    width: 110px;
+}
+
+.card1-p {}
+
+.main-heading h1 {
+    font-size: 2.5rem;
+    margin-top: -10px;
+    width: 40%;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 20px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: #ffffff;
+    width: 280px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card1-p {
+    background-color: rgb(255, 129, 83);
+    color: whitesmoke;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card p span {
+    margin-left: 10px;
+
+}
+
+.card button {
+    background-color: rgb(255, 129, 83);
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: rgb(255, 99, 50);
+}
+
+.card-1 ftr {
+    margin-top: 200px;
+}
+
+.ftr p {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+}
+
+hr {
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+    margin: 20px 0;
+}
+
+.explore {
+    width: 100%;
+    text-align: center;
+}
+
+.scroling {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 80px;
+}
+
+
+
+.scroll-box {
+    position: sticky;
+    padding: 4%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.marquee-text-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 150s linear infinite;
+}
+
+.marquee-text-text {
+    display: inline-block;
+}
+
+.p-logo {
+    margin: 0 16px;
+    vertical-align: middle;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* ::::::::::GRID::::::::: */
+.grid-container {
+
+    width: 76%;
+    margin-left: 19%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    font-size: 1.5em;
+
+}
+
+.grid-item:hover {
+    background-color: #9ca3d1;
+}
+
+.d-1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.d-2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.grid-container-2 {
+    cursor: pointer;
+    color: rgb(23, 146, 78);
+    display: grid;
+    width: 90%;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+}
+
+/* .grid-container-2:hover{
+    cursor: pointer;
+    color: rgb(23, 146, 78);
+} */
+
+.EF {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+
+.grid-container-3 {
+    display: grid;
+    width: 95%;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Four columns */
+
+}
+
+.grid-container-3:hover {
+    cursor: pointer;
+    color: rgb(202, 98, 98);
+}
+
+.Security {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+
+.grid-container-4:hover {
+    cursor: pointer;
+    color: rgb(23, 146, 78);
+}
+
+.grid-container-4 {
+    display: grid;
+    width: 95%;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-container-4 button {
+    text-decoration: none;
+}
+
+.Knowledge {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+
+.grid-container-4:hover {
+    cursor: pointer;
+    color: rgb(23, 146, 78);
+}
+
+.Admin {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+
+button input {
+    text-decoration: none;
+
+}
+
+.Customization {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+
+.buttons {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 40%;
+    margin: 90px;
+    position: ;
+}
+
+hr {
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+    margin: 20px 0;
+}
+
+button {}
+
+.buttons button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.last {
+    background-color: #eaebf3;
+    margin-top: 50px;
+    height: 80%;
+    width: 100%;
+}
+
+.last-1 {
+    width: 70%;
+    margin: 70px;
+    font-size: medium;
+}
+
+.last h1 {
+    margin: 40px;
+    width: 70%;
+}
+
+.last p {
+    width: 40%;
+    margin: 40px;
+}
+
+.last h5 {
+    margin: 40px;
+}
+
+.last-1:hover {
+    cursor: pointer;
+}
