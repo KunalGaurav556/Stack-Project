@@ -125,7 +125,7 @@ span a {
 /* Stack Overflow for your team, now powered by Area */
 
 .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     /* height: 1000vh; */
     display: flex;
@@ -807,6 +807,14 @@ span a {
         width: 40%;
     }
 }
+ /* microsoft section media query  */
+ @media only screen and (max-width: 1049px) {
+    .microsoft{
+        display: none;
+    }
+   }
+
+
 
 /* <!-- Get started today and empower your team with the knowledge they need. --> */
 
