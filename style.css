@@ -301,6 +301,13 @@ span a {
         margin-top: 4rem;
     }
 }
+.thri-up{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .thri-new {
     border: 2px solid orangered;
@@ -637,7 +644,7 @@ span a {
     color: #3b4045;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
-    padding-bottom: 1.5rem;
+    /* padding-bottom: 1.5rem; */
 
     p {
         font-size: 21px;
