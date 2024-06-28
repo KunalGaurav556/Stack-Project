@@ -22,9 +22,8 @@ section {
     font-weight: 400;
     width: 110px;
 }
-.card1-p{
 
-}
+.card1-p {}
 
 .main-heading h1 {
     font-size: 2.5rem;
@@ -36,25 +35,27 @@ input[type="checkbox"] {
     width: 24px;
     height: 20px;
 }
+
 .cards {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
-   
+    flex-wrap: wrap;
+
 }
+
 .card {
     background-color: #ffffff;
-    width: 280px; 
+    width: 280px;
     margin: 5px;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 .card:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 .card1-p {
@@ -62,14 +63,14 @@ input[type="checkbox"] {
     color: whitesmoke;
     display: inline-block;
     padding: 5px 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
     font-weight: bold;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .card h1 {
-    font-size: 24px; 
-    margin-bottom: 10px; 
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .card p {
@@ -81,7 +82,7 @@ input[type="checkbox"] {
 
 .card p span {
     margin-left: 10px;
-    
+
 }
 
 .card button {
@@ -96,7 +97,7 @@ input[type="checkbox"] {
 }
 
 .card button:hover {
-    background-color: rgb(255, 99, 50); 
+    background-color: rgb(255, 99, 50);
 }
 
 .card-1 ftr {
@@ -106,21 +107,22 @@ input[type="checkbox"] {
 .ftr p {
     font-size: 14px;
     text-align: center;
-    color: #777; 
+    color: #777;
 }
 
 hr {
     height: 1px;
-    background-color: #ddd; 
+    background-color: #ddd;
     border: none;
     margin: 20px 0;
 }
 
-.explore{
+.explore {
     width: 100%;
     text-align: center;
 }
-.scroling{
+
+.scroling {
     text-align: center;
     font-size: 22px;
     margin-top: 80px;
@@ -156,6 +158,7 @@ hr {
     0% {
         transform: translateX(0%);
     }
+
     100% {
         transform: translateX(-100%);
     }
@@ -164,13 +167,13 @@ hr {
 
 /* ::::::::::GRID::::::::: */
 .grid-container {
-  
+
     width: 76%;
     margin-left: 19%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     padding: 20px;
-    
+
 }
 
 .grid-item {
@@ -178,30 +181,34 @@ hr {
     justify-content: center;
     align-items: center;
     height: 40px;
-    border: 1px solid #000; 
-    background-color: #f0f0f0; 
+    border: 1px solid #000;
+    background-color: #f0f0f0;
     font-size: 1.5em;
-    
+
 }
-.grid-item:hover{
+
+.grid-item:hover {
     background-color: #9ca3d1;
 }
-.d-1{
+
+.d-1 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.d-2{
-   border-top-right-radius: 10px; 
-   border-bottom-right-radius: 10px;
+
+.d-2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
-.grid-container-2{
+
+.grid-container-2 {
     cursor: pointer;
     color: rgb(23, 146, 78);
     display: grid;
     width: 90%;
-    
+
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(5, 1fr);
     padding: 20px;
 }
 
@@ -210,51 +217,7 @@ hr {
     color: rgb(23, 146, 78);
 } */
 
-.EF{
- color: orange;
- font-family: sans-serif;
- margin-top: 40px;
- margin-bottom: 40px;
- padding-left: 80px;
-}
-
-.grid-container-3{
-    display: grid;
-    width: 95%;
-    
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Four columns */
-    
-} 
-.grid-container-3:hover{
-    cursor: pointer;
-    color: rgb(202, 98, 98);
-}
-
-.Security{
-    color: orange;
- font-family: sans-serif;
- margin-top: 40px;
- margin-bottom: 40px;
- padding-left: 80px;
-}
-.grid-container-4:hover{
-    cursor: pointer;
-    color: rgb(23, 146, 78);
-}
-
-.grid-container-4{
-    display: grid;
-    width: 95%;
-    
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-.grid-container-4 button{
-  text-decoration: none;
-}
-
-.Knowledge{
+.EF {
     color: orange;
     font-family: sans-serif;
     margin-top: 40px;
@@ -262,12 +225,60 @@ hr {
     padding-left: 80px;
 }
 
-.grid-container-4:hover{
+.grid-container-3 {
+    display: grid;
+    width: 95%;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Four columns */
+
+}
+
+.grid-container-3:hover {
+    cursor: pointer;
+    color: rgb(202, 98, 98);
+}
+
+.Security {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+
+.grid-container-4:hover {
     cursor: pointer;
     color: rgb(23, 146, 78);
 }
 
-.Admin{
+.grid-container-4 {
+    display: grid;
+    width: 95%;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-container-4 button {
+    text-decoration: none;
+}
+
+.Knowledge {
+    color: orange;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+
+.grid-container-4:hover {
+    cursor: pointer;
+    color: rgb(23, 146, 78);
+}
+
+.Admin {
     color: orange;
     font-family: sans-serif;
     margin-top: 40px;
@@ -276,11 +287,11 @@ hr {
 }
 
 button input {
-        text-decoration: none;
-        
+    text-decoration: none;
+
 }
 
-.Customization{
+.Customization {
     color: orange;
     font-family: sans-serif;
     margin-top: 40px;
@@ -288,7 +299,7 @@ button input {
     padding-left: 80px;
 }
 
-.buttons{
+.buttons {
     color: orange;
     font-family: sans-serif;
     margin-top: 40px;
@@ -300,44 +311,45 @@ button input {
 
 hr {
     height: 1px;
-    background-color: #ddd; 
+    background-color: #ddd;
     border: none;
     margin: 20px 0;
 }
 
-button{
-   
+button {}
+
+.buttons button:hover {
+    background-color: blue;
+    color: white;
 }
 
-.buttons button:hover{
-   background-color: blue;
-   color: white;
-}
-
-.last{
+.last {
     background-color: #eaebf3;
     margin-top: 50px;
     height: 80%;
     width: 100%;
 }
-.last-1{
+
+.last-1 {
     width: 70%;
     margin: 70px;
     font-size: medium;
 }
-.last h1{
+
+.last h1 {
     margin: 40px;
     width: 70%;
 }
-.last p{
+
+.last p {
     width: 40%;
     margin: 40px;
 }
 
-.last h5{
+.last h5 {
     margin: 40px;
 }
 
-.last-1:hover{
+.last-1:hover {
     cursor: pointer;
 }
