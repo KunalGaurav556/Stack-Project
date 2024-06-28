@@ -12,36 +12,36 @@
     <link rel="stylesheet" href="../assets/style/engineering.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&amp;family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /> 
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="navLeft">
-                <ul>
-                    <li>
-                        <span class="material-icons menu">menu</span>
-                    </li>
-                    <li>
-                        <img src="https://cdn.cookielaw.org/logos/481fe84d-93cd-45d7-9ee5-d340809f8e77/8f3efd92-e54f-4c99-a125-ae0c75e79ddd/5f962ad8-0e6b-448b-a8fc-773412c206d3/so-logo.png"
-                            alt="" id="image">
-                    </li>
-                    <li class="list">Why Teams? <span class="material-icons">expand_more</span></li>
-                    <li class="list">Use cases <span class="material-icons">expand_more</span></li>
-                    <li class="list">Customers</li>
-                    <li class="list">Resources<span class="material-icons">expand_more</span></li>
-                    <li class="list">OverflowAI</li>
-                    <li class="list">Pricing</li>
-                </ul>
-            </div>
-            <div class="navRight">
-                <ul>
-                    <li class="list"><span class="material-icons">person</span>Log in</li>
-                    <li class="list">Try Free</li>
-                    <li><a href="">Contact us</a></li>
-                </ul>
-            </div>
+    <nav class="z-10 flex justify-between items-center fixed top-0 left-0 w-full h-16 bg-white">
+        <!-- language -->
+        <div class="nav-left ">
+          <img
+            src="https://cdn.cookielaw.org/logos/481fe84d-93cd-45d7-9ee5-d340809f8e77/8f3efd92-e54f-4c99-a125-ae0c75e79ddd/5f962ad8-0e6b-448b-a8fc-773412c206d3/so-logo.png"
+            alt="" id="image">
         </div>
-    </header>
+    
+        <div class="nav-right navigation flex flex-wrap items-center ">
+          <input type="checkbox" class="toggle-menu">
+          <div class="hamburger"></div>
+          <ul class="menu list-none flex text-lg flex-wrap justify-center   transition duration-500">
+            <!-- max-[600px]:hidden  -->
+            <li class="pr-7"><a href="">Why Teams? <span class="material-icons">expand_more</span></a></li>
+            <li class="pr-7"><a href="">Use cases <span class="material-icons">expand_more</span></a></li>
+            <li class="pr-7"><a href="">Customers</a></li>
+            <li class="pr-7"><a href="">Resources<span class="material-icons">expand_more</span></a></li>
+            <li class="pr-7"><a href="">OverflowAI</a></li>
+            <li class="pr-7"><a href="">Pricing</a></li>
+            <li class="pr-7"><a href=""><span class="material-icons">person</span>Log in</a></li>
+            <li class="pr-7"><a href="">Try Free</a></li>
+            <li class="pr-7"><a href="" id="cnt">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
 
 
     <section class="engineering-container">
@@ -291,113 +291,89 @@
         </div>
     </section>
 
-    <div class="footer">
-        <div class="main-footer">
-            <div class="l-footer">
-                <div class="l-f-img">
-                    <img src="https://cdn.cookielaw.org/logos/481fe84d-93cd-45d7-9ee5-d340809f8e77/8f3efd92-e54f-4c99-a125-ae0c75e79ddd/5f962ad8-0e6b-448b-a8fc-773412c206d3/so-logo.png"
-                        alt="" id="image">
-                </div>
-                <div class="stack-team">
-                    <div class="l-f-main">
-                        <div class="left-stack"><br><br>
-                            <span class="heading-span"><a href="">Stack OverFlow for Teams</a></span><br><br><br>
-                            <ul>
-                                <li><a href="">Pricing</a></li>
-                                <li><a href="">Customers</a></li>
-                                <li><a href="">Our solution</a></li>
-                                <li><a href="">Integration</a></li>
-                                <li><a href="">Features</a></li>
-                                <li><a href="">Customers Success</a></li>
-                                <li><a href="">Security</a></li>
-                                <li><a href="">Return on Investment(RO)</a></li><br><br>
-                            </ul>
-                            <div class="mid-left-footer">
-                                <span class="Overflow">OverFlow <span class="new">NEW</span></span><br>
-                                <span class="now">Now available on Enterprise</span><br><br><br>
-                            </div>
-                            <div class="try-footer">
-                                <span><a href="">Try free</a></span><br><br>
-                                <span><a href="">Log in</a></span>
-                            </div>
-                        </div>
-                        <div class="right-stack"> <br><br><br><br><br>
-                            <ul>
-                                <li><a href="">Use cases</a></li>
-                                <li><a href="">Engineers</a></li>
-                                <li><a href="">Data Scientists</a></li>
-                                <li><a href="">DevOps & SRE</a></li>
-                                <li><a href="">Support</a></li>
-                                <li><a href="">Product Management</a></li><br><br>
-                                <li><a href="">Resources</a></li>
-                                <li><a href="">Productivity</a></li>
-                                <li><a href="">AI/ML</a></li>
-                                <li><a href="">Guides and Insights</a></li>
-                                <li><a href="">Customers Academy</a></li><br><br>
-                                <li><a href="">FAQ</a></li>
-                                <li><a href="">Help Centre</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mid-f">
-                <div class="mid-f-main">
-                    <div class="ad-left"><br><br>
-                        <span class=".heading-span add"><a href="">Stack Overflow Adervertising</a></span><br><br><br>
-                        <ul>
-                            <li><a href="">Why Stack Overflow</a></li>
-                            <li><a href="">What to expect</a></li>
-                            <li><a href="">Advertise to developers</a></li>
-                            <li><a href="">Attract tech talent</a></li>
-                            <li><a href="">Engage your community</a></li><br><br><br>
-                            <li id="post"><a href="">Post a job</a></li>
-                            <span class="powered"><a href="">Powered by Indeed</a></span>
-                        </ul>
-                    </div>
-                    <div class="ad-right"><br><br><br><br><br><br>
-                        <span><a href="">Use cases</a></span><br>
-                        <li><a href="">marketing Teams</a></li>
-                        <li><a href="">Employer Branding Teams</a></li>
-                        <li><a href="">DevRel Teams</a></li>
-                        <li><a href="">Talent Teams</a></li>
-                        <li><a href="">Technology Teams</a></li>
-                        <li><a href="">Agencies</a></li><br><br>
-                        <span><a href=""><a href="">Resources</a></a></span>
-                        <li><a href="">Product guides and insights</a></li>
-                        <li><a href="">Community insights</a></li>
-                        <li><a href="">Advertising best practices</a></li>
-                        <li><a href="">Talent best practices</a></li>
-                        <li><a href="">Collectives</a><sup>TM</sup></li>
-                    </div>
-                </div>
-            </div>
-            <div class="r-footer">
-                <ul class="mode">
-                    <li class="green"><a href="">Lights</a></li>
-                    <li><a href="">Dark</a></li>
-                    <li class="auto"><a href="">Auto</a></li>
-                </ul><br><br>
-                <span class="heading-span"><a href="">Company</a></span><br><br><br>
-                <span class="Overflow"><a href="">OverflowAPI</a><span class="new">NEW</span></span><br><br>
-                <span class="now">Stack Overflow's <br> subscription-based API <br>service to train and fine- <br> tune
-                    large models.</span><br><br><br>
-                <span>About</span><br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Stack Overflow for Teams</h3>
+               <div class="stack">
                 <ul>
-                    <li><a href="">Leadership</a></li>
-                    <li><a href="">Social Impact</a></li>
-                    <li><a href="">Press</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Open positions</a></li>
-                    <li><a href="">Contact us</a></li><br><br>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Newsletter</a></li>
-                    <li><a href="">Podcast</a></li>
-                    <li><a href="">Labs</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Our solution</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Customer Success</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Return on Investment (ROI)</a></li>
+                    <li><a href="#">OverflowAI <span class="new">NEW</span></a></li>
+                    <li><a href="#">Try free</a></li>
+                    <li><a href="#">Log in</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Use cases</a></li>
+                    <li><a href="">Engineers</a></li>
+                    <li><a href="">Data Scientists</a></li>
+                    <li><a href="">DevOps & SRE</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Product Management</a></li><br><br>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Productivity</a></li>
+                    <li><a href="">AI/ML</a></li>
+                    <li><a href="">Guides and Insights</a></li>
+                    <li><a href="">Customers Academy</a></li><br><br>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Help Centre</a></li>
+                </ul>
+               </div>
+            </div>
+            <div class="footer-column last1">
+                <h3>Stack Overflow Advertising</h3>
+               <div class="stack">
+                <ul>
+                    <li><a href="#">Why Stack Overflow?</a></li>
+                    <li><a href="#">What to expect</a></li>
+                    <li><a href="#">Advertise to developers</a></li>
+                    <li><a href="#">Attract tech talent</a></li>
+                    <li><a href="#">Engage your community</a></li>
+                    <li><a href="#">Post a job</a></li>
+                </ul>
+                <ul>
+                    <span><a href="">Use cases</a></span><br>
+                    <li><a href="">marketing Teams</a></li>
+                    <li><a href="">Employer Branding Teams</a></li>
+                    <li><a href="">DevRel Teams</a></li>
+                    <li><a href="">Talent Teams</a></li>
+                    <li><a href="">Technology Teams</a></li>
+                    <li><a href="">Agencies</a></li><br><br>
+                    <span><a href=""><a href="">Resources</a></a></span>
+                    <li><a href="">Product guides and insights</a></li>
+                    <li><a href="">Community insights</a></li>
+                    <li><a href="">Advertising best practices</a></li>
+                    <li><a href="">Talent best practices</a></li>
+                    <li><a href="">Collectives</a><sup>TM</sup></li>
+                </ul>
+               </div>
+            </div>
+            <div class="footer-column last">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">OverflowAPI <span class="new">NEW</span></a></li>
+                    <span>Stack Overflow’s <br> subscription-based API <br> service to train and fine- <br> tune large language <br> models.</span> <br> <br> <br>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Social Impact</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Open positions</a></li>
+                    <li><a href="#">Contact us</a></li> <br> <b></b>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Podcast</a></li>
+                    <li><a href="#">Labs</a></li>
                 </ul>
             </div>
         </div>
-    </div>
+    </footer>
     <div class="copyright">
         <div class="copyright-left">
             <span>
@@ -411,11 +387,14 @@
                 <li>Privacy Policy</li>
                 <li>Cookie Policy</li>
                 <li>Go to Stackoverflow.com</li>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li>thread</li>
-                <li>insta</li>
-                <li>Youtube</li>
             </ul>
+            <div class="fnt">
+               
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-threads"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </div>
         </div>
     </div>
     
