@@ -1,4 +1,7 @@
 # Stack Overflow Project 🌐
+
+#Hosted Link : https://kunalgaurav556.github.io/Stack-Project/
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg" alt="Stack Overflow Logo" width="250" height="200">
 
 ## Contributors 👥
@@ -15,12 +18,12 @@ A big thank you to all the contributors who have helped make this project possib
 - **Deepak Kumar Singh** - Created Pricing Section.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Overflow](#overflow)
-- [Pricing](#pricing)
-- [Engineering](#contributing)
-- [Customers](#contributing)
+- [Introduction](https://github.com/KunalGaurav556/Stack-Project/blob/main/index.html)
+- [Why Team?](https://github.com/KunalGaurav556/Stack-Project/blob/main/Kunal%20Chaudhary/Customer_Success.html)
+- [Overflow](https://github.com/KunalGaurav556/Stack-Project/blob/main/src/overflow-ai.html)
+- [Pricing](https://github.com/KunalGaurav556/Stack-Project/blob/main/pricing.html)
+- [Engineering](https://github.com/KunalGaurav556/Stack-Project/blob/main/src/Engineering.html)
+- [Customers](https://github.com/KunalGaurav556/Stack-Project/blob/main/Kunal%20Chaudhary/Customer.html)
 - [Contact us](#contact)
 
 ## Introduction 🌐
@@ -80,9 +83,6 @@ Contribute to a thriving developer community:
 
 Our platform is free to use for all users. Enjoy unlimited access to knowledge sharing and community-driven solutions.
 
-## Contributing
-
-We welcome contributions from the community to enhance our platform. Please follow our [Contributing Guidelines](CONTRIBUTING.md) to get started.
 
 ##use cases 💰
 ## Use Cases
