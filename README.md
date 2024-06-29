@@ -13,7 +13,7 @@ A big thank you to all the contributors who have helped make this project possib
 
 ### Special Thanks
 ## Team Members
-- **Deepesh-Pundir** - Created overflow AI section of navbar .
+- **Deepesh-Pundir** - Created overflow AI and use cases(engineering page) section of navbar .
 - **Kunal Chaudhady** - Created Customers and Why team section.
 - **Deepak Kumar Singh** - Created Pricing Section.
 
