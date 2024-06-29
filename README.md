@@ -17,6 +17,9 @@ A big thank you to all the contributors who have helped make this project possib
 - **Kunal Chaudhady** - Created Customers and Why team section.
 - **Deepak Kumar Singh** - Created Pricing Section.
 
+- ![teams-home-overview](https://github.com/KunalGaurav556/Stack-Project/assets/145253265/93a52b0c-4f1e-4997-8ce0-95dec375e6fb)
+
+
 ## Table of Contents
 - [Introduction](https://github.com/KunalGaurav556/Stack-Project/blob/main/index.html)
 - [Why Team?](https://github.com/KunalGaurav556/Stack-Project/blob/main/Kunal%20Chaudhary/Customer_Success.html)
@@ -52,6 +55,8 @@ Onboarding new team members with existing knowledge.
 Centralized documentation of solutions and best practices.
 
 ## Overflow AI🌊
+
+
 
 Explore additional features and benefits of our platform:
 
