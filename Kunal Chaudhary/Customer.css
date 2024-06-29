@@ -347,6 +347,22 @@ nav{
 
 
 /* Footer Starts Here */
+.one1{
+    border: 1px solid orange;
+    width: 34%;
+    margin-right: 10px;
+}
+.two2{
+    border: 1px solid blue;
+    width: 32%;
+    margin-right: 5px;
+}
+.three3{
+    border: 1px solid;
+    width: 30%;
+    margin-right: 5px;
+}
+
 .get-container {
     margin-top: 62px ;
     /* border: 2px solid black; */

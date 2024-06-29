@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* navbar */
 nav{
-    /* border-bottom: 2px solid rgb(204, 199, 199); */
-    /* border: 2px solid red; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -172,6 +171,7 @@ nav{
     }
 }
 
+/* Main Section below navbar */
 .header{
     margin-top :10%; 
     margin-bottom :15%; 
@@ -214,6 +214,7 @@ nav{
     font-weight: 600;
 }
 
+/* Section 2 */
 .section2{
     display: flex;
     margin: 100px auto;
@@ -242,6 +243,7 @@ nav{
     margin-right: 20px;
 }
 
+/* Section 3 */
 .section3{
     display: flex;
     flex-direction: column;
@@ -267,12 +269,33 @@ nav{
 
 }
 
+/* Animation */
+.animation{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height: 25px;
+}
+
+.animation .img1{
+    display: inline-block;
+    vertical-align: middle;
+    height: 130px;
+    width: 130px;
+    padding: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/* Section 4 */
 .section4{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 100px auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
 
@@ -295,7 +318,89 @@ nav{
     font-size: 1.1rem;
 }
 
-/* Footer */
+
+.vertical-text{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    display: flex;
+}
+
+.vertical-text .one{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.vertical-text .two{
+    width: 50%;
+}
+
+/* Section 5 */
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f1f7;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.section5 .text{
+    width: 55%;
+}
+
+.section5 .text .heading{
+    color: #393fac;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section5 .table{
+    width: 90%;
+
+   
+}
+
+.table .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.table .content .c1{
+    font-size: 1.1rem;
+    display: flex;
+    align-content: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-top:15px;
+    margin-bottom: 15px;
+    padding-bottom: auto;
+    padding-right: 15%;
+    padding-left: 20px;
+    height: 50px;
+    width: 45%;
+}
+
+
+/* Footer Section*/
+.one1{
+    border: 1px solid orange;
+    width: 34%;
+    margin-right: 10px;
+}
+.two2{
+    border: 1px solid blue;
+    width: 32%;
+    margin-right: 5px;
+}
+.three3{
+    border: 1px solid;
+    width: 30%;
+    margin-right: 5px;
+}
 
 footer {
     background-color: #fffffb;
