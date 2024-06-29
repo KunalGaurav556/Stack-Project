@@ -11,16 +11,16 @@ A big thank you to all the contributors who have helped make this project possib
 ## Team Members
 - **Deepesh-Pundir** - Created overflow AI section of navbar .
 - **Kunal Chaudhady** - Created Customers and Why team section.
-- **Deepak Kumar Singh ** - Created Pricing Section.
+- **Deepak Kumar Singh** - Created Pricing Section.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Overflow](#overflow)
 - [Pricing](#pricing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Engineering](#contributing)
+- [Customers](#contributing)
+- [Contact us](#contact)
 
 ## Introduction 🌐
 
@@ -85,7 +85,7 @@ Explore various scenarios where our platform can be instrumental in solving real
 
 ### Onboarding New Team Members
 
-![Onboarding New Members](https://via.placeholder.com/800x400.png?text=Onboarding+New+Members)
+
 
 - **Problem**: A new developer joins your team and needs to get up to speed with the project's technologies and coding practices.
 - **Solution**: Use our platform to introduce the new member to common issues, best practices, and community-verified solutions relevant to your project stack.
@@ -96,8 +96,6 @@ Explore various scenarios where our platform can be instrumental in solving real
 Discover how developers and organizations benefit from our platform:
 
 ### Developer Community
-
-![Developer Community](https://via.placeholder.com/800x400.png?text=Developer+Community)
 
 - **Engagement**: Join a global network of developers to collaborate, learn, and share knowledge.
 - **Support**: Receive assistance and insights from peers and experts in solving coding challenges.
@@ -110,15 +108,11 @@ Explore the engineering aspects of our platform:
 
 ### Architecture
 
-![Platform Architecture](https://via.placeholder.com/800x400.png?text=Platform+Architecture)
-
 - **Scalability**: Designed for scalability to handle millions of users and concurrent requests.
 - **Microservices**: Utilizes a microservices architecture for modularity and resilience.
 - **Data Management**: Implements efficient data storage and retrieval mechanisms for performance optimization.
 
 ### Technology Stack
-
-![Technology Stack](https://via.placeholder.com/800x400.png?text=Technology+Stack)
 
 - **Frontend**: Built with modern frontend frameworks (e.g., React, Angular) for responsive UI/UX.
 - **Backend**: Utilizes robust backend technologies (e.g., Node.js, Python) for secure and efficient server-side operations.
@@ -126,28 +120,23 @@ Explore the engineering aspects of our platform:
 
 ### Continuous Integration and Deployment (CI/CD)
 
-![CI/CD Pipeline](https://via.placeholder.com/800x400.png?text=CI/CD+Pipeline)
-
 - **Automation**: Implements CI/CD pipelines for automated testing, building, and deployment of code changes.
 - **DevOps Practices**: Follows best practices for version control, configuration management, and infrastructure as code (IaC).
 
 ### Security
 
-![Platform Security](https://via.placeholder.com/800x400.png?text=Platform+Security)
 
 - **Data Protection**: Ensures data privacy and compliance with industry standards (e.g., GDPR, HIPAA).
 - **Authentication**: Implements secure authentication and authorization mechanisms to protect user accounts and data.
 
 ### Performance Monitoring and Optimization
 
-![Performance Monitoring](https://via.placeholder.com/800x400.png?text=Performance+Monitoring)
 
 - **Metrics**: Monitors platform performance metrics (e.g., response time, error rates) for proactive optimization.
 - **Scalability Testing**: Conducts load testing and scalability assessments to maintain optimal performance under varying loads.
 
 ### Infrastructure
 
-![Platform Infrastructure](https://via.placeholder.com/800x400.png?text=Platform+Infrastructure)
 
 - **Cloud Deployment**: Hosted on cloud infrastructure (e.g., AWS, Azure) for scalability and reliability.
 - **High Availability**: Implements redundancy and failover mechanisms to ensure high availability of services.
