@@ -605,7 +605,7 @@ span a {
         margin-top: 1rem;
         width: 80%;
         /* border: 1px solid grey; */
-        padding: 6px;
+        padding: 0px;
         border-radius: 5px;
     }
 
