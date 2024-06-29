@@ -70,14 +70,6 @@ Our platform is free to use for all users. Enjoy unlimited access to knowledge s
 
 We welcome contributions from the community to enhance our platform. Please follow our [Contributing Guidelines](CONTRIBUTING.md) to get started.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For inquiries and support, please contact us at [contact@example.com](mailto:contact@example.com).
-
 ##use cases 💰
 ## Use Cases
 
