@@ -1,6 +1,7 @@
 # Stack Overflow Project 🌐
 
-![Stack Overflow Logo](https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg" alt="Stack Overflow Logo" width="100" height="100">
+
 
 
 ## Table of Contents
