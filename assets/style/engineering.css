@@ -222,10 +222,7 @@
         justify-content: center;
         align-items: space-between;
         gap: 3rem;
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/deepesh-pundir
     }
     .changes{
         display: flex;
@@ -283,10 +280,7 @@
 
 .achievments{
     width: 100%;
-<<<<<<< HEAD
-    height: 70vh;
-=======
->>>>>>> origin/deepesh-pundir
+    /* height: 70vh; */
     margin-bottom:2rem;
     background-image: url(../images/teams-footer-cta.fD-8cPfw.svg);
     display: flex;
@@ -295,10 +289,7 @@
     align-items: center;
     gap: 5rem;
     color: #fff;
-<<<<<<< HEAD
-=======
     padding: 5rem 0;
->>>>>>> origin/deepesh-pundir
     
 }
 .achievments .content{
@@ -331,10 +322,7 @@
     flex-wrap: wrap;
     gap:1rem;
     font-size: 1.1rem;
-<<<<<<< HEAD
-=======
     padding: 0 3rem ;
->>>>>>> origin/deepesh-pundir
 }
 .achievments .g2-list-named .star{
     color: #ff482b;
@@ -343,11 +331,7 @@
 /* achievments section end */
 
 /* media query */
-<<<<<<< HEAD
-@media screen and (max-width:1100px) {
-=======
  @media screen and (max-width:1100px) {
->>>>>>> origin/deepesh-pundir
     .engineers-quotations{
         justify-content: center;
         flex-wrap:wrap;
