@@ -1,5 +1,16 @@
 # Stack Overflow Project 🌐
 
+## Contributors 👥
+
+A big thank you to all the contributors who have helped make this project possible! This project thrives on community involvement and contributions from developers like you.
+
+### Special Thanks
+- **Kisley Chandan (Team Mentor) ** - Guide us to complete this project.
+- **Kunal Gaurav (Team Captain) ** - Created front page (Landing Page).
+- **Deepesh-Pundir** - Created overflow AI section of navbar .
+- **Kunal Chaudhady** - Created Customers and Why team section.
+- **Deepak Kumar Singh ** - Created Pricing Section.
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
