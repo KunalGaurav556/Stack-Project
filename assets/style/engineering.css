@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab" , serif;
+}
+.engineering-container{
+    margin:3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.engineering-container .engineering-description-section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1.2rem;
+}
+.engineering-container .engineering-description-section .heading{
+    font-size: 1.2rem;
+    color: #aaafb5;
+}
+.engineering-container .engineering-description-section>h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.engineering-container .engineering-description-section>p{
+    font-size: 1.2rem;
+}
+.engineering-container .engineering-description-section .btn button{
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 510;
+    background-color: #ffb700;
+    border: none;
+}
+.engineering-container .engineering-img-section{
+    width: 45%;
+    img{
+        width: 85%;
+    }
+}
+
+/* supporting-teams-container  strt*/
+
+.supporting-teams-container{
+    width: 100%;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    p{
+        color: #aaafb5;
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+}
+.supporting-teams-container .supporting-teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem; 
+    overflow: hidden;
+}
+.supporting-teams-container .supporting-teams .supporting-team{
+    width: 20rem;
+    animation: marquee 10s linear infinite;
+    img{
+        width: 100%;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(5rem);
+    }
+    100% {
+        transform: translateX(-5rem);
+    }
+}
+
+
+/* supporting-teams-containe end */
+
+/* services-container strt */
+
+.ship-product-container,.resolution-container,.performance-container,.learning-curve-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f1f7;
+    border-radius: 15px;
+    padding: 3rem 0;
+    margin: 2rem 0;
+}
+.ship-product-container .ship-product-content, .resolution-container .resolution-content, .performance-container .performance-content , .learning-curve-container .learning-curve-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+        color: #3b4045;
+    }
+}
+.ship-product-container .ship-product-content svg,.resolution-container .resolution-content svg,.performance-container .performance-content svg, .learning-curve-container .learning-curve-content svg{
+    color: blue;
+}
+.ship-product-container .ship-product-img,.resolution-container .resolution-img,.performance-container .performance-img,.learning-curve-container .learning-curve-img{
+    width: 40%;
+    img{
+        width: 90%;
+        height: 60vh;
+    }
+}
+/* services-container end */
+
+/* engineers-box start */
+    .engineers-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 3.5rem ;
+        background-color: #2a2e7a;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .engineers-box .box-content{
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        i{
+            font-size: 3rem;
+        }
+    }
+    .engineers-box .btn button{
+        padding: 0.5rem 0.8rem;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        background-color: #1b76d1;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+/* engineers-box end */
+
+/* engineers-quotations start */
+
+    .engineers-quotations{
+        padding: 1.5rem 3.5rem ;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        margin: 3rem 0;
+    }
+    .engineers-quotations .engineers-quotation{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .svg-spot{
+            color:#1b76d1;
+            
+        }
+    }
+    .engineers-quotations .engineers-quotation p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #74787a;
+    }
+    .engineers-quotations .engineers-quotation hr{
+        width: 30%;
+    }
+    .engineers-quotations .engineers-quotation .engineers-name{
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #1b76d1;
+    }
+    .engineers-quotations .engineers-quotation .position{
+        font-size: 0.9rem;
+    }
+/* engineers-quotations end */
+
+/* company-changes-container start */
+
+    .company-changes-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        margin: 5rem 0;
+        border-radius: 0 0 10px 10px;
+        padding: 2.5rem 0;
+        box-shadow: 0 35px 20px 25px #edede8;
+        h1{
+            font-size: 2.2rem;
+        }
+        p{
+            font-size:1rem;
+            color: #74787a;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+    }
+    .company-changes-sub-container{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .company-changes-sub-container .col-changes{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+        gap: 3rem;
+
+    }
+    .changes{
+        display: flex;
+        gap: 1rem;
+        .icon svg{
+            color:#2a2e7a
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+    }
+
+/* company-changes-container end */
+
+/* reading-material start */
+
+    .reading-material{
+        margin: 4rem 0;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+    .reading-material h1{
+        font-size: 2rem;
+    }
+    .reading-material .reading-cards{
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    .reading-material .reading-cards .card{
+        width: 30%;
+        aspect-ratio: 1/0.6;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #edede8;
+    }
+    .reading-material .reading-cards .card{
+        color: #1b76d1;
+        .case-study{
+            color:#3b4045
+        }
+    }
+
+/* reading-material end */
+
+/* achievments section strt */
+
+.achievments{
+    width: 100%;
+    /* height: 70vh; */
+    margin-bottom:2rem;
+    background-image: url(../images/teams-footer-cta.fD-8cPfw.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    color: #fff;
+    padding: 5rem 0;
+    
+}
+.achievments .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.achievments .content h1{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.achievments .content button{
+    width: 25%;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: #ffb700;
+    font-weight: 505;
+    color: #000000;
+    flex-shrink: 0;
+}
+.achievments .g2-list-named{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
+    font-size: 1.1rem;
+    padding: 0 3rem ;
+}
+.achievments .g2-list-named .star{
+    color: #ff482b;
+}
+
+/* achievments section end */
+
+/* media query */
+ @media screen and (max-width:1100px) {
+    .engineers-quotations{
+        justify-content: center;
+        flex-wrap:wrap;
+
+    }
+    .engineers-quotations .engineers-quotation{
+        width: 20rem;
+        flex-direction: column;
+        flex-shrink: 0;
+        flex-grow: 0;
+       
+    }
+
+    .company-changes-sub-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+        flex-wrap: wrap;
+    }
+    .company-changes-sub-container .col-changes{
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+        gap: 3rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+    }
+ }
+
+ @media screen and (max-width:960px) {
+    .engineering-container{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .engineering-container .engineering-description-section{
+        width: 80%;
+       
+    }
+    .engineering-container .engineering-img-section{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 80%;
+            
+        }
+    }
+
+
+    .engineers-box {
+        padding: 0.8rem 2.5rem ;
+       
+    }
+    .engineers-box .box-content{
+        font-size: 1rem;
+        i{
+            font-size: 2rem;
+        }
+    }
+    .engineers-box .btn button{
+        padding: 0.3rem 0.8rem;
+        font-size: 0.6rem;
+        font-weight: 400;
+    }
+
+    .ship-product-container,.resolution-container,.performance-container,.learning-curve-container{
+        flex-direction: column;
+        gap:1rem;
+       
+    }
+    .ship-product-container .ship-product-content, .resolution-container .resolution-content, .performance-container .performance-content , .learning-curve-container .learning-curve-content{
+        width: 60%;
+
+    }
+    .ship-product-container .ship-product-img,.resolution-container .resolution-img,.performance-container .performance-img,.learning-curve-container .learning-curve-img{
+        width: 60%;
+        img{
+            width: 90%;
+            height: 60vh;
+        }
+    }
+
+    .achievments .content h1{
+        font-size: 2rem;
+    }
+    
+    .achievments .content button{
+        width: 10rem;
+    }
+    .achievments .g2-list-named{
+        font-size: 1rem;
+    }
+ }
+ @media screen and (max-width:650px){
+    .engineering-container .engineering-description-section .heading{
+        font-size: 1rem;
+    }
+    .engineering-container .engineering-description-section>h1{
+        font-size: 2rem;
+    }
+    .engineering-container .engineering-description-section>p{
+        font-size: 1rem;
+    }
+    .engineering-container .engineering-description-section .btn button{
+        font-size: 0.8rem;   
+    }
+
+    
+    .ship-product-container .ship-product-content, .resolution-container .resolution-content, .performance-container .performance-content , .learning-curve-container .learning-curve-content{
+        width: 90%;
+
+        justify-content: center;
+        gap: 1rem;
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 0.9rem;
+            color: #3b4045;
+        }
+    }
+    .ship-product-container .ship-product-img,.resolution-container .resolution-img,.performance-container .performance-img,.learning-curve-container .learning-curve-img{
+        width: 90%;
+        img{
+            width: 90%;
+        }
+    }
+
+    .engineers-quotations .engineers-quotation p{
+        font-size: 0.7rem;
+    }
+    .engineers-quotations .engineers-quotation hr{
+        width: 30%;
+    }
+    .engineers-quotations .engineers-quotation .engineers-name{
+        font-size: 0.8rem;
+    }
+    .engineers-quotations .engineers-quotation .position{
+        font-size: 0.8rem;
+    }
+
+    .company-changes-container{
+        
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size:0.8rem;
+        }
+    }
+
+    .company-changes-sub-container .col-changes .changes img{
+        width: 95%;
+    }
+
+
+    .engineers-box {
+        flex-direction: column;
+        gap:1rem;
+    }
+    .engineers-box .box-content{
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .engineers-box .btn{
+        width: 100%;
+    }
+    .engineers-box .btn button{
+        width: 100%;
+    }
+
+    .reading-material h1{
+        font-size: 1.5rem;
+    }
+    .reading-material .reading-cards{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 5rem;
+    }
+    .reading-material .reading-cards .card{
+        width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+ } 

@@ -1,0 +1,745 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab" , serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.text-orange{
+    color: #e8700e;
+}
+
+/* .overflow-header css strt */
+.overflow-header{
+    padding: 2rem 3rem;
+}
+.overflow-header .main{
+    border: 1px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+}
+.overflow-header .main .p-bg-pattern-dot--light {
+    width: 100%;
+    height: 100px;
+    background-color: #000000; /* Light background color */
+    background-image: radial-gradient(circle, rgba(249, 250, 251, 0.2) 2px, transparent 2px);
+    background-size: 20px 20px; /* Size of the dots pattern */
+}
+.overflow-header .main .iconMarketingOverflowai{
+    position: relative;
+    top:-2.5rem;
+    color: white;
+
+}
+.overflow-header .main .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem;
+}
+.overflow-header .main .content h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+.overflow-header .main .content .btn{
+    border: none;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    background-color: #e8700e;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.8ms ease-in-out;
+}
+.overflow-header .main .content .btn:hover{
+    background-color: rgba(232, 112, 14,0.8);
+    
+}
+.overflow-header .main .content .video-player{
+    width: 70%;
+    
+    /* height: 550px; */
+    margin-bottom: 5rem;
+    filter: blur(8px);
+}
+.overflow-header .main .content .video-player iframe{
+    width: 100%;
+    height: 75vh;
+    clip: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 1.5rem;
+}
+.cards .card{
+    border: 1px solid rgba(41, 41, 41,0.9);
+    width: 30%;
+    background-color: rgba(41, 41, 41,0.9);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    position: relative;
+    transition: border 0.1s ease-in-out;
+    
+}
+.cards .card:hover{
+    border: 1px solid rgba(232, 112, 14,0.8);
+}
+
+.cards .card h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.cards .card p{
+    width: 85%;
+    color: #979ba1;
+    font-size: 17px;
+    line-height: 1.8rem;
+}
+
+.cards .card .arrow-icon-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; 
+    aspect-ratio: 1/1;
+    background-color:#e8700e;
+    border-radius: 50%; 
+    position: absolute;
+    right: 1rem;
+    bottom: 2rem;
+    color: white;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1rem ;
+}
+.header-bottom .enterprises-plan{
+    display: flex;
+    gap:1rem;
+}
+.header-bottom .enterprises-plan a{
+    text-decoration: none;
+    color: #979ba1;
+    font-weight: 600;
+    i{
+        font-size: 0.8rem;
+    }
+}
+.header-bottom .enterprises-plan .active{
+    color: #000000;
+    i{
+        color: lightgreen;
+    }
+}
+.header-bottom .pricing_plans a{
+    color: #1b76d1;
+    
+    i{
+        font-size: 0.7rem;
+    }
+}
+/* .overflow-header css end */
+
+/* knowledge community section start */
+    .knowledge-community{
+        width: 100%;
+        padding: 2rem 3rem;
+        margin-block:5rem;
+       
+    }
+    .knowledge-community .knowledge-community-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+
+    }
+    .knowledge-community .knowledge-community-head h2{
+        font-size: 3.5rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .knowledge-community-container{
+        background-color: #fafaf5;
+        border-radius: 10px ;
+        height: 100%;
+        position: relative;
+    }
+    .knowledge-community-container .nav-menu-container{
+        width: 90%;
+        margin: auto;
+        display:flex;
+        justify-content: space-around;
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: #fff;
+        box-shadow:0px 0px 5px rgb(225, 213, 213);
+        transform: translate(0px,-30px);
+        position: sticky;
+        top:3.5rem;
+    }
+    .knowledge-community-container .nav-menu-container .nav-menu-item{
+        border-radius: 5px;
+        padding: 0.4rem 3rem;
+        transform: background-color 0.2s ease-in-out;
+    }
+    .knowledge-community-container .nav-menu-container .nav-menu-item:not(.active,.expert):hover{
+        background-color:lightgray;
+    }
+    .knowledge-community-container .nav-menu-container .nav-menu-item a{
+        text-decoration: none;
+        color: #3b4045;
+    }
+    .knowledge-community-container .nav-menu-container .active{
+        background-color: #e8700e;
+        a{
+        color: #fff;
+        }
+    }
+    .knowledge-community-container .nav-menu-container .expert{
+        background-color: #1b76d1;
+        a{
+        color: #fff;
+        }
+    }
+   .knowledge-community-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+   }
+  
+   .knowledge-community-content .enhanced_search,.knowledge-community-content .vscode,.knowledge-community-content .auto-answer{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-block: 2rem;
+   }
+   .knowledge-community-content .enhanced_search>p,.knowledge-community-content .vscode>p,.knowledge-community-content .auto-answer>p{
+    color: #3b4045;
+    font-size: 1.2rem;
+    font-weight: 510;
+   }
+   .knowledge-community-content .enhanced_search h2, .knowledge-community-content .vscode h2,.knowledge-community-content .auto-answer h2{
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-content,.knowledge-community-content .vscode .vscode-content,.knowledge-community-content .auto-answer .auto-answer-content{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px ;
+        padding: 2rem;
+        background-color: #fff;
+        box-shadow: 0 0 10px 5px lightgray;
+
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-content .description,.knowledge-community-content .vscode .vscode-content .description,.knowledge-community-content .auto-answer .auto-answer-content .description{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-content .description p,.knowledge-community-content .vscode .vscode-content .description p ,.knowledge-community-content .auto-answer .auto-answer-content .description p{
+        width: 40%;
+        font-size: 1.2rem;
+        color: #3b4045;
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-content .description button,.knowledge-community-content .vscode .vscode-content .description button,.knowledge-community-content .auto-answer .auto-answer-content .description button{
+        font-size: 1rem;
+        font-weight: 510;
+        padding: 0.3rem 2rem;
+        border-radius: 5px;
+        border:1px solid #1b76d1;
+        color: #1b76d1;
+        background-color: #fff;
+        transition: background-color 0.1s ease-in-out;
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-content .description button:hover,.knowledge-community-content .vscode .vscode-content .description button:hover,.knowledge-community-content .auto-answer .auto-answer-content .description button:hover{
+    background-color: #bad4ed;
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-content .enhanced-search-video iframe,.knowledge-community-content .vscode .vscode-content .vscode-video iframe,.knowledge-community-content .auto-answer .auto-answer-content .auto-answer-video iframe{
+     width: 100%;
+     height: 70vh;
+     border-radius: 10px;
+     margin-bottom: 1.5rem;
+     box-shadow: 0 0 10px 5px lightgray;
+   }
+   .knowledge-community-content .enhanced_search  .enhanced-search-sub-content,.knowledge-community-content .vscode  .vscode-sub-content,.knowledge-community-content .auto-answer  .auto-answer-sub-content{
+    width: 100%;
+    display: flex;
+    gap:2rem;
+    margin-block: 3rem;
+   }
+   .knowledge-community-content .enhanced_search  .enhanced-search-sub-content .left-content,.knowledge-community-content .vscode  .vscode-sub-content .left-content,.knowledge-community-content .auto-answer  .auto-answer-sub-content .left-content{
+    width: 50%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px lightgray;
+
+   }
+   .knowledge-community-content .enhanced_search  .enhanced-search-sub-content .right-content,.knowledge-community-content .vscode  .vscode-sub-content .right-content,.knowledge-community-content .auto-answer  .auto-answer-sub-content .right-content{
+    width: 50%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px lightgray;
+
+   }
+   .knowledge-community-content .enhanced_search  .enhanced-search-sub-content p,.knowledge-community-content .vscode  .vscode-sub-content p,.knowledge-community-content .auto-answer  .auto-answer-sub-content p{
+    color:#3b4045;
+    font-size: 1.2rem;
+    text-align: center;
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-sub-content .left-content img,.knowledge-community-content .vscode .vscode-sub-content .left-content img,.knowledge-community-content .auto-answer .auto-answer-sub-content .left-content img{
+    width: 100%;
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-sub-content .right-content img  ,.knowledge-community-content .vscode .vscode-sub-content .right-content img,.knowledge-community-content .auto-answer .auto-answer-sub-content .right-content img{
+    width: 100%;
+   }
+/* knowledge community section end */
+
+/* enterprise-plan-container strt */
+
+.enterprise-plan-container{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin-block:5rem;
+    display: flex;
+    justify-content: center;
+}
+.enterprise-plan-container .enterprise-plan-sub-container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem;
+}
+.enterprise-plan-container .enterprise-plan-sub-container>h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.enterprise-plan-container .enterprise-plan-sub-container>p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.enterprise-plan-container  .enterprise-plan-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.enterprise-plan-container  .enterprise-plan-cards .enterprise-plan-card{
+    width: 48%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow:0px 0px 5px rgb(225, 213, 213);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.enterprise-plan-container  .enterprise-plan-cards .left-card-plan>h2{
+    width: 24%;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #2a2e7a;
+    color: #fff;
+    border-radius: 5px;
+}
+.enterprise-plan-container  .enterprise-plan-cards .left-card-plan>div h3{
+    font-size: 2.5rem;
+    color: #3b4045;
+    p{
+        font-size: 1rem;
+    }
+    
+}
+.enterprise-plan-container  .enterprise-plan-cards .left-card-plan button{
+    font-size: 1rem;
+    padding: 0.8rem;
+    color: #fff;
+    background-color: #1b76d1;
+    border: none;
+    border-radius: 10px;
+}
+.enterprise-plan-container  .enterprise-plan-cards .enterprise-plan-features{
+    font-size: 0.9rem;
+    color: #3b4045;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.enterprise-plan-container  .enterprise-plan-cards .left-card-plan>p{
+    color: #3b4045;
+    text-align: center;
+    font-weight: 500;
+}
+
+.enterprise-plan-container  .enterprise-plan-cards .right-card-plan{
+    border: 1px solid #e8700e;
+    box-shadow: 0 0 5px #e8700e;
+    hr{
+        border: 1px solid #e8700e;
+    }
+}
+.enterprise-plan-container  .enterprise-plan-cards .right-card-plan .plan-cost{
+    width: 70%;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center ;
+    gap:1rem;
+    strong{
+        font-size: 3.5rem;
+        color: #e8700e;
+    }
+}
+.enterprise-plan-container  .enterprise-plan-cards .right-card-plan .plans-features-right-card{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    div{
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        background-color: #fafaf5;
+    }
+   
+}
+.enterprise-plan-container  .enterprise-plan-cards .right-card-plan p{
+    font-size: 0.7rem;
+}
+
+/* enterprise-plan-container end */
+
+/* FAQ-container strt */
+
+.faq-container{
+    width: 100%;
+    padding: 3rem 4rem;
+    margin-block:5rem;
+    
+}
+.faq-container .faq-sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #f0f1f7;
+    border-radius: 10px;
+    padding: 4rem 2rem;
+}
+.faq-container .faq-sub-container .faq-head{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-container .faq-sub-container .faq-head .faq-heading{
+    h1{
+        font-size: 3rem;
+        padding: 0.5rem 0px;
+    }
+    p{
+        color: #3b4045;
+        font-size: 1.2rem;
+    }
+}
+.faq-container .faq-sub-container .faq-head .faq-icon svg{
+    color: #1b76d1;
+}
+.faq-qus-container{
+    display: flex;
+    flex-direction: column;
+}
+.faq-qus-container .faq{
+    margin-block:1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.faq-qus-container .faq .faq-qus{
+    width: 70%;
+    h2{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+.faq-qus-container .faq .faq-qus p{
+    font-size: 1.1rem;
+    color: #3b4045;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.faq-qus-container .faq .faq-icon i{
+    font-size: 1.5rem;
+    color: #1b76d1;
+    transition: all 0.3s ease-in-out;
+
+}
+.faq-qus-container .faq:hover{
+    .faq-icon i{
+        transform: rotate(180deg);
+    }
+   .faq-qus p{
+        max-height: 100%; 
+        opacity: 1;
+   }
+}
+/* FAQ-container end */
+
+/* achievments section strt */
+
+.achievments{
+    width: 100%;
+    height: 70vh;
+    margin-bottom:2rem;
+    background-image: url(../images/teams-footer-cta.fD-8cPfw.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    color: #fff;
+    
+}
+.achievments .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.achievments .content h1{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.achievments .content button{
+    width: 25%;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background-color: #ffb700;
+    font-weight: 505;
+    color: #000000;
+    flex-shrink: 0;
+}
+.achievments .g2-list-named{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
+    font-size: 1.1rem;
+}
+.achievments .g2-list-named .star{
+    color: #ff482b;
+}
+
+/* achievments section end */
+
+/* media query */
+
+@media screen and (max-width:1000px) {
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards .card{
+        width: 95%;
+    }
+
+    .knowledge-community-container .nav-menu-container{
+        width: 100%;
+        flex-direction: column;
+        flex-shrink: 0;
+        gap:1rem;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    .knowledge-community-container .nav-menu-container .nav-menu-item{
+        text-align: center;
+    }
+    .knowledge-community-container .nav-menu-container .expert{
+        display: none;
+    } 
+    
+    .knowledge-community-content .enhanced_search h2, .knowledge-community-content .vscode h2,.knowledge-community-content .auto-answer h2{
+        width: 80%;
+       }
+    .knowledge-community-content .enhanced_search .enhanced-search-content .description,.knowledge-community-content .vscode .vscode-content .description,.knowledge-community-content .auto-answer .auto-answer-content .description{
+        flex-direction: column;
+        gap: 1rem;
+   }
+   .knowledge-community-content .enhanced_search .enhanced-search-content .description p,.knowledge-community-content .vscode .vscode-content .description p ,.knowledge-community-content .auto-answer .auto-answer-content .description p{
+         width: 80%;
+    }
+    .knowledge-community-content .enhanced_search .enhanced-search-content .enhanced-search-video iframe,.knowledge-community-content .vscode .vscode-content .vscode-video iframe,.knowledge-community-content .auto-answer .auto-answer-content .auto-answer-video iframe{
+        height: 40vh;
+    }
+    .knowledge-community-content .enhanced_search,.knowledge-community-content .vscode,.knowledge-community-content .auto-answer{
+        width: 100%;
+       }
+
+    .knowledge-community-content .enhanced_search  .enhanced-search-sub-content,.knowledge-community-content .vscode  .vscode-sub-content,.knowledge-community-content .auto-answer  .auto-answer-sub-content{
+        flex-direction: column;
+       }
+       .knowledge-community-content .enhanced_search  .enhanced-search-sub-content .left-content,.knowledge-community-content .vscode  .vscode-sub-content .left-content,.knowledge-community-content .auto-answer  .auto-answer-sub-content .left-content{
+        width: 100%;
+       }
+       .knowledge-community-content .enhanced_search  .enhanced-search-sub-content .right-content,.knowledge-community-content .vscode  .vscode-sub-content .right-content,.knowledge-community-content .auto-answer  .auto-answer-sub-content .right-content{
+        width: 100%;
+       } 
+       
+    .enterprise-plan-container  .enterprise-plan-cards{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .enterprise-plan-container  .enterprise-plan-cards .enterprise-plan-card{
+        width: 100%;
+    }
+    .achievments .content button{
+        width: 40%;
+    }
+
+
+    .achievments .content{
+        width: 70%;
+    }
+    .achievments .content h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:650px){
+    .header-bottom{
+        justify-content: center;
+    }
+    .header-bottom .pricing_plans a{
+        display: none;
+    }
+    .knowledge-community-content .enhanced_search .enhanced-search-content .enhanced-search-video iframe,.knowledge-community-content .vscode .vscode-content .vscode-video iframe,.knowledge-community-content .auto-answer .auto-answer-content .auto-answer-video iframe{
+        height: 20vh;
+    }
+    .knowledge-community .knowledge-community-head h2{
+        font-size: 2rem;
+        
+    }
+    .knowledge-community-content .enhanced_search h2, .knowledge-community-content .vscode h2,.knowledge-community-content .auto-answer h2{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .enterprise-plan-container .enterprise-plan-sub-container{
+        width: 100%;
+    }
+    .enterprise-plan-container .enterprise-plan-sub-container>h1{
+        font-size: 1.6rem;
+    }
+
+    .enterprise-plan-container  .enterprise-plan-cards .enterprise-plan-card{
+        width: 100%;
+    }
+    .enterprise-plan-container  .enterprise-plan-cards .left-card-plan>h2{
+        width: 50%;
+        font-size: 0.8rem;
+    }
+    .enterprise-plan-container  .enterprise-plan-cards .left-card-plan>div h3{
+        font-size: 1.5rem;
+        p{
+            font-size: 0.6rem;
+        }
+        
+    }
+    .enterprise-plan-container  .enterprise-plan-cards .left-card-plan button{
+        font-size: 0.8rem;
+    }
+    .enterprise-plan-container  .enterprise-plan-cards .right-card-plan .plan-cost{
+        width: 60%;
+        font-size: 1rem; 
+        strong{
+            font-size: 2rem;
+        }
+    }
+    .faq-container{
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-block:5rem;
+        
+    }
+    .faq-container .faq-sub-container .faq-head{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .faq-container .faq-sub-container .faq-head .faq-heading{
+        h1{
+            font-size: 2rem;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+
+
+    .achievments .content{
+        width: 70%;
+    }
+    .achievments .content h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .achievments .content button{
+        width: 70%;
+        font-size: 0.7rem;
+        font-weight: 550;
+       
+    }
+    .achievments .g2-list-named{
+        width: 60%;
+        text-align: center;
+        font-size: 1rem;
+    }
+}  
+
