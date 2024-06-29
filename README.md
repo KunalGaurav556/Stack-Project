@@ -8,7 +8,7 @@
 
 A big thank you to all the contributors who have helped make this project possible! This project thrives on community involvement and contributions from developers like you.
 
-- **Kisley Chandan (Team Mentor) ** - Guide us to complete this project.
+- **Kishlay Chandan (Team Mentor) ** - Guide us to complete this project.
 - **Kunal Gaurav (Team Captain) ** - Created front page (Landing Page).
 
 ### Special Thanks
