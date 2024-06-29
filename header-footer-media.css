@@ -263,7 +263,18 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-
+#s1{
+    padding-bottom: 18px;
+    border-bottom: 2px solid orange;
+}
+#s2{
+    padding-bottom: 18px;
+    border-bottom: 2px solid blue;
+}
+#s3{
+    padding-bottom: 18px;
+    border-bottom: 2px solid black;
+}
 
 .last{
     /* border: 2px solid red; */
