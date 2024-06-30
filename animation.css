@@ -59,3 +59,375 @@
     transform: translateY(0);
     opacity: 1;
 }
+
+/* message  */
+
+.message {
+    display: flex;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.m-left li {
+    list-style: none;
+}
+
+.m-right p, .m-right span {
+    animation: slideIn 2s ease-in-out;
+}
+
+.m-left li i {
+    font-size: 48px; /* Increased size of the icon */
+    color: #BD081C; /* Pinterest red color */
+    animation: iconBounceIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes iconBounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* preferred part  */
+.para-preferred, .para-companies {
+    animation: fadeInSlideUp 2s ease-in-out, bounce 1s ease-in-out infinite;
+}
+
+.para-preferred span {
+    animation: fadeInColorChange 3s ease-in-out;
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes fadeInColorChange {
+    0% {
+        color: black;
+        opacity: 0;
+    }
+    50% {
+        color: blue;
+        opacity: 0.5;
+    }
+    100% {
+        color: red;
+        opacity: 1;
+    }
+}
+
+.a-pre a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.a-pre a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.a-pre a:hover {
+    color: #fff;
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+/* our-rich */
+.o-card {
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 1s ease;
+}
+
+.o-card:hover {
+    transform: scale(0.9);
+    background-color: black;
+    color: white;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.6);
+    }
+    to {
+        transform: scale(.6);
+    }
+}
+.o-r-d-right:hover {
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+    /* Adjust animation duration and timing function as needed */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.o-r-d-right img:hover{
+    animation: zoomIn 0.5s ease-out 0.2s forwards;
+    /* Adjust animation duration and delay as needed */
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* want     */
+.want-up:hover{
+    opacity: 0;
+    animation: fadeInUp 0.5s ease forwards;
+    /* Adjust animation duration and timing function as needed */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.want-up p {
+    animation: fadeIn 0.5s ease 0.3s forwards;
+    /* Adjust animation duration and delay as needed */
+}
+
+.want-up span {
+    animation: slideInLeft 0.5s ease 0.5s forwards;
+    /* Adjust animation duration and delay as needed */
+}
+
+.want-up a {
+    animation: fadeIn 0.5s ease 0.7s forwards;
+    /* Adjust animation duration and delay as needed */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.want-card {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.want-card:hover {
+    transform: scale(1.1);
+}
+
+.want-card img {
+    transition: transform 0.3s ease;
+}
+
+.want-card:hover img {
+    transform: scale(1.1);
+}
+
+
+/* microsoft  */
+
+.microsoft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.m-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.m-down-left,
+.m-down-right {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.microsoft:hover .m-down-left {
+    transform: translateX(-10px);
+}
+
+.microsoft:hover .m-down-right {
+    transform: translateX(10px);
+}
+
+.m-down img,
+.m-down-right img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.m-down p,
+.m-down-right p {
+    margin-bottom: 10px;
+}
+
+.m-down a,
+.m-down-right a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.m-down a:hover,
+.m-down-right a:hover {
+    color: darkblue;
+}
+
+
+/* get started  */
+.get-container{
+    text-align: center;
+    padding: 20px;
+}
+
+.get-container h1 {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.get-container a {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.2s forwards;
+}
+
+.get-container span {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.4s forwards;
+    display: inline-block;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.get-container .best {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.get-container span i.fa-solid {
+    margin: 0 2px;
+    color: #ffcc00;
+    animation: scaleIcon 0.8s ease 0.4s forwards;
+}
+
+@keyframes scaleIcon {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* footer  */
+.footer-container ul li {
+    transition: transform 0.3s ease;
+}
+
+.footer-container ul li:hover {
+    transform: scale(1.1);
+}
