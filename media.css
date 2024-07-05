@@ -235,4 +235,15 @@
       }
      }
 
+     /* microsoft section  */
+     @media screen and (max-width: 1049px) {
+        .microsoft{
+          display: none;
+        }
+        .m-up{
+          display: none;
+        }
+       
+      }
+
    
